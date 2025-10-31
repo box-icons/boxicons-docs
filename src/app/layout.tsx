@@ -15,7 +15,7 @@ const navbar = (
     logo={<div className='flex gap-2 items-center'><Image src={'/logo.png'} alt="brand" width="32" height="32"/> <span className='text-2xl font-bold'>Boxicons</span><div className='uppercase text-[10px] tracking-wider opacity-50'>docs</div></div>}
     // ... Your additional navbar options
   
-   projectLink='https://github.com/atiswd/boxicons'
+   projectLink='https://github.com/atisawd/boxicons'
 chatLink="https://discord.gg/ZhWjGfzM"
   />
 
