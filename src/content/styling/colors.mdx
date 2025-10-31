@@ -1,0 +1,27 @@
+# Colors
+Add colors to your icons easily using `style` attribute
+
+### Basic & Brand icons
+You can pass in color using the css color tag through `style` attribute. The default is always the color of the parent element.
+
+```html
+<i class='bx bx-heart' style='color:#fb2d2d'></i>
+<i class='bx bxs-heart' style='color:#aeaeae'></i>
+```
+
+### Duotone Icons
+You can pass in color using the css color tag through `style` attribute. Or you can choose to color individual layers and change their opacity.
+The variables used to change colors for the duotone layers are '--bx-duotone-primary-color' and '--bx-duotone-secondary-color' 
+The variables used to change opacity for the duotone layers are '--bx-duotone-primary-opacity' and '--bx-duotone-secondary-opacity'
+
+The default opacity for primary layer is 1 and the secondary layer is 0.4
+```html
+<i class='bxd bx-heart-plus' style='--bx-duotone-primary-color:#fb2d2d;--bx-duotone-primary-opacity:0.9;--bx-duotone-secondary-color:#000000;--bx-duotone-secondary-opacity:0.6;'></i>
+<i class='bxds bx-heart-plus'style='--bx-duotone-primary-opacity:0.9;--bx-duotone-secondary-opacity:0.6;'></i>
+```
+
+If you just need to invert the opacity of the layers pass on the class `bx-invert-opacity` which will invert the opacity without you having to pass the value separately
+```html
+<i class='bxd bx-heart-plus bx-invert-opacity' ></i>
+<i class='bxds bx-heart-plus bx-invert-opacity'></i>
+```
