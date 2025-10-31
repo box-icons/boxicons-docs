@@ -4,12 +4,14 @@ import Image from 'next/image'
 
 # Usage as a Font&#x20;
 
-You can use our icons as fonts 
+You can use our icons as fonts.
 
 
 ### Import the CSS
 
-Copy-paste the stylesheet `link` into your `head` to load our CSS
+Copy-paste the stylesheet `link` into your `head` to load our CSS.
+This will load boxicons font into your webpage.
+
 ```html copy
 <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
 ```
@@ -18,26 +20,25 @@ or
 <link href='https://cdn.boxicons.com/3.0.3/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
 ```
 
-The font is hosted on reliable CDN to serve your websites with ease
-This will load boxicons font into your webpage
+The fonts are hosted on a reliable CDN to serve your websites with ease.
 
 ### PRO users
-You can grab your cdn link from the usage page , where you can select which pack , style  and weight you prefer for your project
+You can grab your CDN link from our usage page, where you can select which pack, style, and weight you prefer for your project.
 
-<Image src="usage.png" alt="Hello" width={928} height={677} unoptimized />
+<Image src="usage.png" alt="Usage page screenshot" width={928} height={677} unoptimized />
 
-The Usage link can be found in the icon mini viewer or the avatar dropdown
+The Usage link can be found in the icon mini-viewer and in the avatar dropdown.
 
 
 ### HTML 
-To use an icon on your page, add a prefix `bx-` for regular icons, `bxs-` for filled variant of icons followed by the icon name and seperate class :
+To use an icon on your page, use the icon's class name, prefixed by what type of icon it is: `bx-` for regular icons, and `bxs-` for filled (solid) icons.
 ```html /bx bx-volleyball/ 
 <i class='bx bx-volleyball'></i>
 <i class='bx bxs-volleyball'></i>
 ```
 
 ### Starter Template
-Create an HTML document and copy-paste the starter template
+To use the starter template, create an HTML document with these contents:
 ```html copy
 <!doctype html>
 <html lang='en'>
@@ -58,7 +59,7 @@ Create an HTML document and copy-paste the starter template
 </html>
 ```
 
-You can also access the SVG's from the CDN at:
+You can also access the SVG's from our CDN at:
 
 ```html copy
 https://cdn.boxicons.com/3.0.3/svg/<PACK_NAME>/<ICON_NAME_WITH_PREFIX_BX_OR_BXS>.svg
