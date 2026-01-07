@@ -9,7 +9,7 @@ export const metadata = {
   // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
 }
 
-const banner = <Banner storageKey="some-key">Boxicons v3.0.6 is released 🎉</Banner>
+const banner = <Banner storageKey="some-key">Boxicons v3.0.7 is released 🎉</Banner>
 const navbar = (
   <Navbar
     logo={<div className='flex gap-2 items-center'><Image src={'/logo.png'} alt="brand" width="32" height="32"/> <span className='text-2xl font-bold'>Boxicons</span><div className='uppercase text-[10px] tracking-wider opacity-50'>docs</div></div>}
