@@ -1,0 +1,89 @@
+# Animations
+
+Boxicons comes with a set of pre-built CSS animations that let you add motion to your icons with simple utility classes. Animations are useful for drawing attention to actions, indicating loading states, or adding subtle feedback to your UI.
+<br/>
+---
+## Enable Animations
+
+To use the animation utilities, you first need to include the animations stylesheet in the `<head>` of your page:
+
+```html filename="animations.min.css" copy
+<link href="https://cdn.boxicons.com/{{VERSION}}/fonts/animations.min.css" rel="stylesheet">
+```
+
+## Basic Animations
+
+You can apply an animation to an icon by adding one of the animation classes directly to it.
+
+### Available animation classes
+
+* `bx-spin`
+* `bx-tada`
+* `bx-flashing`
+* `bx-burst`
+* `bx-fade-left`
+* `bx-fade-right`
+* `bx-fade-up`
+* `bx-fade-down`
+* `bx-breathe`
+* `bx-beat`
+* `bx-wiggle`
+* `bx-bounce`
+
+```html copy
+<i class="bxf bx-thumb-up bx-spin"></i>
+<i class="bxf bx-thumb-up bx-tada"></i>
+<i class="bxf bx-thumb-up bx-bounce"></i>
+```
+<div className="icon-display">
+<i className="bxdocs bxrf-200-golf-ball bx-spin"></i>
+<i className="bxdocs bxrf-200-golf-ball bx-tada"></i>
+<i className="bxdocs bxrf-200-golf-ball bx-bounce"></i>
+</div>
+
+These animations run continuously by default.
+
+## On Hover Animation
+
+If you only want the animation to play when the user hovers over the icon, use the -hover variants of the animation classes.
+
+### Hover animation classes
+
+* `bx-spin-hover`
+* `bx-tada-hover`
+* `bx-flashing-hover`
+* `bx-burst-hover`
+* `bx-fade-left-hover`
+* `bx-fade-right-hover`
+* `bx-fade-up-hover`
+* `bx-fade-down-hover`
+* `bx-breathe-hover`
+* `bx-beat-hover`
+* `bx-wiggle-hover`
+* `bx-bounce-hover`
+
+```html copy
+<i class="bxf bx-thumb-up bx-spin-hover"></i>
+<i class="bxf bx-thumb-up bx-tada-hover"></i>
+<i class="bxf bx-thumb-up bx-bounce-hover"></i>
+```
+<div className="icon-display">
+<i className="bxdocs bxrf-200-golf-ball bx-spin-hover"></i>
+<i className="bxdocs bxrf-200-golf-ball bx-tada-hover"></i>
+<i className="bxdocs bxrf-200-golf-ball bx-bounce-hover"></i>
+</div>
+
+
+## Controlling Animation Speed and Repetition
+
+Because these are pure CSS animations, you can fully control them using standard CSS properties:
+
+* `animation-duration` — controls how fast or slow the animation runs
+* `animation-iteration-count` — controls how many times the animation repeats
+
+```html copy
+<i
+  class="bxf bx-thumb-up bx-spin"
+  style="animation-duration: 2s; animation-iteration-count: 1;"
+></i>
+```

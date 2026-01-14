@@ -1,0 +1,63 @@
+import { Callout } from 'nextra/components'
+
+# Rotation & Flipping
+
+Boxicons provides utility classes to easily rotate or flip icons without writing any custom CSS. These transformations are applied using CSS and work consistently across all icon types.
+<br/>
+---
+<Callout type="warning">
+ Make sure you have included the transformations stylesheet before using these classes.
+</Callout>
+
+```html filename="transformations.min.css" copy
+<link href="https://cdn.boxicons.com/{{VERSION}}/fonts/transformations.min.css" rel="stylesheet">
+```
+
+### Rotating Icons
+
+You can rotate an icon by applying one of the following classes:
+* `bx-rotate-90` — rotates the icon by 90°
+
+* `bx-rotate-180` — rotates the icon by 180°
+
+* `bx-rotate-270` — rotates the icon by 270°
+
+```html copy
+<i class="bxf bx-wink-smile bx-rotate-90"></i>
+<i class="bxf bx-wink-smile bx-rotate-180"></i>
+<i class="bxf bx-wink-smile bx-rotate-270"></i>
+```
+<div className="icon-display">
+<i className="bxdocs bxrf-200-wink-smile bx-rotate-90"></i>
+<i className="bxdocs bxrf-200-wink-smile bx-rotate-180"></i>
+<i className="bxdocs bxrf-200-wink-smile bx-rotate-270"></i>
+</div>
+
+### Flipping Icons
+
+You can also mirror icons horizontally or vertically using the following classes:
+
+* `bx-flip-horizontal` — flips the icon left to right
+
+* `bx-flip-vertical` — flips the icon top to bottom
+
+```html copy
+<i class="bxf bx-wink-smile bx-flip-horizontal"></i>
+<i class="bxf bx-wink-smile bx-flip-vertical"></i>
+```
+<div className="icon-display">
+<i className="bxdocs bxrf-200-wink-smile bx-flip-horizontal"></i>
+<i className="bxdocs bxrf-200-wink-smile bx-flip-vertical"></i>
+</div>
+
+### Combining Transformations
+
+You can combine rotation and flip classes together to achieve more complex transformations.
+
+```html copy
+<i class="bxf bx-wink-smile bx-rotate-90 bx-flip-horizontal"></i>
+```
+<div className="icon-display">
+<i className="bxdocs bxrf-200-wink-smile bx-rotate-90 bx-flip-horizontal"></i>
+
+</div>

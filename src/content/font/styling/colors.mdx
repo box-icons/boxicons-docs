@@ -1,0 +1,74 @@
+# Colors
+
+Boxicons can be styled using standard CSS, making it easy to change icon colors to match your design system. You can apply colors using the `style` attribute, CSS classes, or inherited styles from parent elements.
+<br/>
+---
+<br/>
+## Basic & Brand Icons
+
+For Basic and Brand icons, you can set the color using the CSS `color` property. By default, icons inherit the text color of their parent element.
+
+Example:
+
+```html copy
+<i class="bx bx-heart" style="color:#fb2d2d"></i>
+<i class="bxl bx-twitter" style="color:#1da1f2"></i>
+```
+<div className="icon-display">
+    <i className="bxdocs bxf-200-heart" style={{ color: '#fb2d2d' }}></i>
+    <i className="bxdocs bx-twitter" style={{ color: '#1da1f2' }}></i>
+</div>
+
+You can also control the color using CSS classes:
+```css
+i.bx {
+  color: #fb2d2d;
+}
+```
+
+<br/>
+## Duotone Icons
+Duotone icons are made up of two layers: a primary layer and a secondary layer. You can style each layer independently using CSS variables.
+##### Color variables
+* `--bx-duotone-primary-color`
+* `--bx-duotone-secondary-color`
+##### Opacity variables
+* `--bx-duotone-primary-opacity` default:`1`
+* `--bx-duotone-secondary-opacity` default:`0.4`
+
+```html copy
+<i
+  class="bxd bx-heart-break"
+  style="
+    --bx-duotone-primary-color:#2cdc4b;
+    --bx-duotone-primary-opacity:0.9;
+    --bx-duotone-secondary-color:#9d25ff;
+    --bx-duotone-secondary-opacity:0.6;
+  "
+></i>
+
+<i
+  class="bxds bx-heart-break"
+  style="
+    --bx-duotone-primary-opacity:0.9;
+    --bx-duotone-secondary-opacity:0.6;
+  "
+></i>
+```
+<div className="icon-display">
+    <i className="bxdocs bxrd-heart-break" style={{ '--bx-duotone-primary-color': '#2cdc4b', '--bx-duotone-secondary-color': '#9d25ff', '--bx-duotone-primary-opacity': 0.9, '--bx-duotone-secondary-opacity': 0.6 }}></i>
+    <i className="bxdocs bxrds-heart-break" style={{ '--bx-duotone-primary-opacity': 0.9, '--bx-duotone-secondary-opacity': 0.6 }}></i>
+</div>
+
+
+##### Inverting Layer Opacity
+If you simply want to swap the opacity values between the two layers, you can use the `bx-invert-opacity` utility class. This inverts the layer opacities without requiring you to manually set any values.
+
+```html copy
+<i class="bxd bx-heart-break bx-invert-opacity"></i>
+<i class="bxds bx-heart-break bx-invert-opacity"></i>
+```
+<div className="icon-display">
+    <i className="bxdocs bxrd-heart-break " style={{ '--bx-duotone-secondary-opacity': 1,'--bx-duotone-primary-opacity': 0.4}}></i>
+    <i className="bxdocs bxrds-heart-break " style={{ '--bx-duotone-secondary-opacity': 1,'--bx-duotone-primary-opacity': 0.4}} ></i>
+</div>

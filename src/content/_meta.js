@@ -1,28 +1,48 @@
-import { GitHubIcon } from 'nextra/icons'
- 
 export default {
-  index: 'Introduction',
-  'Font': {
-    type: 'separator',
-    title: 'Font' 
+  '*': {
+    theme: {
+      timestamp: false,
+    }
   },
-  font:{
-    title: 'Usage as a font',
-   
+  index: {
+    title: 'Get Started',
+    display: 'hidden',
+    theme: {
+      breadcrumb: false,
+      pagination: false,
+      toc: false,
+    }
   },
-  styling:{
-    title:'Styling'
+  introduction: {
+    title: 'Introduction'
   },
-  animation:{
-    title: 'Animate the icons',
-   
+  license: {
+    title: 'License'
   },
-  '####': {
-    type: 'separator',
-    title: '' 
+  '---':{
+    "type": "separator",
   },
-  license:{
-    title:'License'
+  font: {
+    title: (
+      <span className="flex items-center gap-2">
+        <i className="bxdocs bxr-200-cursor-pen"  /> Font
+      </span>
+    )
+    
+  },
+  figma: {
+    title: (
+      <span className="flex items-center gap-2">
+        <i className="bxdocs bx-figma"  /> Figma Plugin
+      </span>
+    )
+  },
+  react: {
+    title: (
+      <span className="flex items-center gap-2">
+        <i className="bxdocs bx-react"  /> React Package
+      </span>
+    )
   },
   icons: {
     title: 'Icons',
@@ -35,4 +55,3 @@ export default {
     href: 'https://boxicons.com/pricing'
   }
 }
- 

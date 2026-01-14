@@ -1,0 +1,92 @@
+import Image from 'next/image';
+
+
+# Usage as a Font
+
+You can use Boxicons as an icon font to quickly embed icons into your website or application. This is the easiest way to get started and works great for static sites, dashboards, and traditional web projects.
+
+Using the font version allows you to control icon size, color, and alignment using simple CSS — just like text.
+<br/>
+---
+## Import the CSS
+
+To get started, include the Boxicons stylesheet in the `<head>` of your HTML file. This will load the Boxicons font into your page.
+
+
+### Free icons
+```html copy
+<!-- Basic Icons -->
+<link href="https://cdn.boxicons.com/{{VERSION}}/fonts/basic/boxicons.min.css" rel="stylesheet">
+<!-- Filled Icons -->
+<link href="https://cdn.boxicons.com/{{VERSION}}/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+<!-- Brand Icons -->
+<link href="https://cdn.boxicons.com/{{VERSION}}/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+```
+All font files are hosted on a fast and reliable CDN for easy global delivery.
+
+### For Pro Users
+
+If you are a Boxicons Pro user, you can generate a custom CDN link from the **Usage** page. There, you can select exactly which **pack, style, and weight** you want to include in your project.
+
+<Image src="/usage.png" alt="Usage page screenshot" width={928} height={677} unoptimized />
+
+The **Usage** link can be found in the icon mini-viewer and in the avatar dropdown menu.
+
+## Using Icons in HTML
+
+To render an icon, add an `i` tag with the icon’s class name.
+
+- `bx-` prefix is used for all icons
+
+Example:
+
+```html
+<i class="bx bx-volleyball"></i>
+<i class="bxf bx-volleyball"></i>
+<i class="bxl bx-twitter"></i>
+```
+<div className="icon-display">
+<i className="bxdocs bx-volleyball"></i>
+<i className="bxdocs bxf-volleyball"></i>
+<i className="bxdocs bx-twitter"></i>
+</div>
+
+### Starter Template
+Here’s a minimal HTML template to get you started:
+
+```html filename="starter.html" copy
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+<!-- Boxicons CSS -->
+<link href='https://cdn.boxicons.com/{{VERSION}}/fonts/basic/boxicons.min.css' rel='stylesheet'>
+<link href='https://cdn.boxicons.com/{{VERSION}}/fonts/filled/boxicons-filled.min.css' rel='stylesheet'>
+<link href='https://cdn.boxicons.com/{{VERSION}}/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+ 
+<title>Hello, Boxicons!</title>
+</head>
+<body>
+<h1>Hello, Boxicons!</h1>
+<i class='bx bx-hot'></i>
+<i class='bxf bx-fire'></i>
+<i class='bxl bx-twitter-x'></i>
+</body>
+</html>
+```
+
+You can also access the SVG's from our CDN at:
+
+```html copy
+https://cdn.boxicons.com/{{VERSION}}/svg/<PACK_NAME>/<ICON_NAME_WITH_PREFIX_BX>.svg
+
+<img src="https://cdn.boxicons.com/{{VERSION}}/svg/basic/bx-8-ball.svg" alt="8-ball"/>
+<img src="https://cdn.boxicons.com/{{VERSION}}/svg/filled/bx-8-ball.svg" alt="8-ball"/>
+<img src="https://cdn.boxicons.com/{{VERSION}}/svg/brands/bx-facebook.svg" alt="facebook"/>
+```
+
+
+
+
+

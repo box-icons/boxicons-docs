@@ -1,5 +1,5 @@
 export default {
-    pro: 'Boxicons Pro License',
-    free:'Boxicons Free License',
-    brand: 'Boxicons Brands License'
-  }
+  pro: { title: 'Pro License' },
+  free: { title: 'Free License' },
+  brand: { title: 'Brands License' }
+}

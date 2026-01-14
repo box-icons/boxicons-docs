@@ -1,0 +1,39 @@
+[00:00:01.000] Server  LOG     ✓ Ready in 794ms
+[00:00:06.806] Server  LOG     ○ Compiling /[[...mdxPath]] ...
+[00:00:10.045] Browser WARN    Image with src "http://localhost:3000/file.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:42.709] Browser WARN    Image with src "http://localhost:3000/file.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:57.791] Server  LOG     ✓ Compiled in 189ms
+[00:01:11.937] Server  LOG     ✓ Compiled in 83ms
+[00:01:12.042] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/aniketsuvarna/Desktop/boxicons/boxicons-docs/src/app/globals.css:33:9: Missed semicolon
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:01:17.839] Server  LOG     ✓ Compiled in 456ms
+[00:01:33.501] Server  LOG     ✓ Compiled in 143ms
+[00:01:57.235] Server  LOG     ✓ Compiled in 116ms
+[00:02:23.294] Server  LOG     ✓ Compiled in 183ms
+[00:02:34.382] Server  LOG     ✓ Compiled in 95ms
+[00:02:51.258] Server  LOG     ✓ Compiled in 133ms
+[00:03:41.454] Server  LOG     ✓ Compiled in 179ms
+[00:03:42.008] Server  LOG     - "\u001b[31merror\u001b[0m" "[nextra]" "Error while loading" {} Error: Cannot find module 'private-next-content-dir/undefined'
+[00:03:42.037] Server  LOG     - "\u001b[31merror\u001b[0m" "[nextra]" "Error while loading" {} Error: Cannot find module 'private-next-content-dir/undefined'
+[00:04:09.168] Server  LOG     ✓ Compiled in 72ms
+[00:04:15.247] Server  LOG     ✓ Compiled in 78ms
+[00:05:24.360] Server  LOG     ✓ Compiled in 89ms
+[00:08:17.787] Server  LOG     ✓ Compiled in 180ms
+[00:09:25.253] Server  LOG     ✓ Compiled in 137ms
+[00:10:20.539] Server  LOG     ✓ Compiled in 155ms

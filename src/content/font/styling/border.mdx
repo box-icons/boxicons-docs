@@ -1,0 +1,41 @@
+import { Callout } from 'nextra/components'
+
+# Border
+
+Boxicons provides utility classes that let you quickly add a border around any icon. This is useful when you want to display icons as buttons, badges, or highlighted UI elements without writing custom CSS.
+<br/>
+---
+Two border styles are available:
+
+- `bx-border` — adds a square (rounded-rectangle) border around the icon  
+- `bx-border-circle` — adds a circular border around the icon  
+
+
+<Callout type="warning">
+ Make sure you have included the transformations stylesheet before using these classes.
+</Callout>
+
+```html filename="transformations.min.css" copy
+<link href="https://cdn.boxicons.com/{{VERSION}}/fonts/transformations.min.css" rel="stylesheet">
+```
+
+```html 
+<i class="bxf bx-thumb-up bx-border"></i>
+<i class="bxf bx-thumb-up bx-border-circle"></i>
+```
+<div className="icon-display">
+<i className="bxdocs bxrf-200-thumb-up bx-border"></i>
+<i className="bxdocs bxrf-200-thumb-up bx-border-circle"></i>
+</div>
+#### How it works
+
+* The border is drawn using CSS around the icon glyph.
+* The icon remains fully scalable and inherits color and size normally.
+* The border automatically scales with the icon size.
+
+This means you can combine borders with sizing, color, and rotation utilities:
+
+```html copy
+<i class="bx bx-heart bx-border bx-lg" style="color: red;"></i>
+<i class="bx bx-heart bx-border-circle bx-sm"></i>
+```

@@ -1,0 +1,48 @@
+import { Callout } from 'nextra/components'
+
+# Pulled Icons
+
+Pulled icons let you float an icon to the left or right of a block of text, similar to how pull quotes or floated images work in articles. This is useful for highlighting quotes, notes, tips, or callouts inside long-form content.
+<br/>
+---
+Boxicons provides two utility classes for this:
+
+- `bx-pull-left` — floats the icon to the left of the text  
+- `bx-pull-right` — floats the icon to the right of the text  
+
+
+
+<Callout type="warning">
+ Make sure you have included the transformations stylesheet before using these classes.
+</Callout>
+
+```html filename="transformations.min.css" copy
+<link href="https://cdn.boxicons.com/{{VERSION}}/fonts/transformations.min.css" rel="stylesheet">
+```
+
+```html copy
+<i class="bx-pull-left bxf bx-quote-alt-left bx-lg"></i>
+<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Ut faucibus erat eu nibh laoreet, sed ullamcorper diam ornare. 
+Quisque viverra ante nec luctus imperdiet. Quisque ut imperdiet nisi. 
+Quisque ultrices laoreet odio, non vestibulum lacus molestie sollicitudin. 
+Phasellus nec dolor eget nunc commodo sodales vel vel eros.</span>
+```
+<div className="icon-display">
+<i className="bxdocs bxrf-200-quote-left bx-pull-left bx-lg"></i>
+<span style={{fontSize: '18px'}}>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Ut faucibus erat eu nibh laoreet, sed ullamcorper diam ornare. 
+Quisque viverra ante nec luctus imperdiet. Quisque ut imperdiet nisi. 
+Quisque ultrices laoreet odio, non vestibulum lacus molestie sollicitudin. 
+Phasellus nec dolor eget nunc commodo sodales vel vel eros.
+</span>
+</div>
+
+#### How it works
+
+* The icon is floated to one side of the text.
+* The surrounding text wraps naturally around the icon.
+* Spacing and alignment are handled automatically by the utility class.
+
+This creates a magazine-style layout that draws attention to important content.

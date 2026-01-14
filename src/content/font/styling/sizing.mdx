@@ -1,0 +1,66 @@
+# Sizing
+
+Boxicons scale just like text. You can control the size of an icon using the CSS `font-size` property, and by default, icons inherit the `font-size` of their parent element.
+
+In addition to using CSS, Boxicons also provides a set of utility classes for common, consistent icon sizes.
+<br/>
+---
+
+### Using CSS Font Size
+
+You can resize icons using plain CSS:
+
+```css
+i.bx {
+  font-size: 32px;
+}
+```
+Or inline styles:
+```html copy
+<i class="bxf bx-thumb-up" style="font-size: 96px;"></i>
+```
+<div className="icon-display">
+<i className="bxdocs bxrf-200-thumb-up" style={{ fontSize: '96px' }}></i>
+
+</div>
+
+### Import the transformations CSS
+To use the following classes, you first need to include the transformations stylesheet.
+
+```html filename="transformations.min.css" copy
+<link href="https://cdn.boxicons.com/{{VERSION}}/fonts/transformations.min.css" rel="stylesheet">
+```
+
+### Using Size Utility Classes
+Boxicons provides predefined size classes:
+* `bx-xs`
+* `bx-sm`
+* `bx-md`
+* `bx-lg`
+
+```html copy
+<i class="bx bx-thumb-up bx-xs"></i>
+<i class="bx bx-thumb-up bx-sm"></i>
+<i class="bx bx-thumb-up bx-md"></i>
+<i class="bx bx-thumb-up bx-lg"></i>
+```
+<div className="icon-display">
+<i className="bxdocs bxrf-200-thumb-up bx-xs"></i>
+<i className="bxdocs bxrf-200-thumb-up bx-sm"></i>
+<i className="bxdocs bxrf-200-thumb-up bx-md"></i>
+<i className="bxdocs bxrf-200-thumb-up bx-lg"></i>
+</div>
+These classes apply consistent, predefined sizes that work well across common UI layouts.
+
+### Fixed Width Icons
+
+Sometimes you need icons to align neatly in lists or menus. For this, you can use the bx-fw (fixed width) utility class, which gives all icons the same width.
+This is especially useful when placing icons next to text, such as in navigation lists or menus.
+
+```html copy
+<i class="bx-fw bxl bx-facebook-square"></i> Facebook
+```
+<div className="icon-display">
+<i className="bxdocs bx-facebook-circle bx-fw"></i> <span style={{ fontSize: '25px',fontWeight: 600 }}>Facebook</span>
+
+</div>

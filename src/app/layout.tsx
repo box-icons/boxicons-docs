@@ -1,41 +1,33 @@
-import { Footer, Layout, Navbar } from 'nextra-theme-docs'
+import { Footer, Layout, Navbar, LastUpdated } from 'nextra-theme-docs'
 import { Banner, Head, Image } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
 import 'nextra-theme-docs/style.css'
-
+import packageJson from '../../package.json'
 import './globals.css'
-export const metadata = {
-  // Define your metadata here
-  // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
-}
 
-const banner = <Banner storageKey="some-key">Boxicons v3.0.7 is released 🎉</Banner>
+export const metadata = {}
+
+const banner = <Banner storageKey="some-key"> </Banner>
 const navbar = (
   <Navbar
-    logo={<div className='flex gap-2 items-center'><Image src={'/logo.png'} alt="brand" width="32" height="32"/> <span className='text-2xl font-bold'>Boxicons</span><div className='uppercase text-[10px] tracking-wider opacity-50'>docs</div></div>}
-    // ... Your additional navbar options
-  
-   projectLink='https://github.com/atisawd/boxicons'
-chatLink="https://discord.gg/ZhWjGfzM"
+    logo={<div className='flex  gap-2 items-center grayscale hover:grayscale-0 duration-300'><Image src={'/logo.svg'} alt="brand" width="32" height="32" /> <div className='uppercase text-[12px] font-semibold tracking-wider '>docs</div></div>}
+    projectLink='https://github.com/box-icons/boxicons'
+    
   />
-
 )
-const footer = <Footer> {new Date().getFullYear()} © Boxicons. All Rights Reserved</Footer>
- 
-export default async function RootLayout({ children }:{children: React.ReactNode}) {
+const footer = <Footer> <div className='flex w-full justify-between'><span>{new Date().getFullYear()} © Boxicons. All Rights Reserved</span> <span>Current version: v{packageJson.icon_version}</span></div></Footer>
+
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html
-      // Not required, but good for SEO
-      lang="en"
-      // Required to be set
-      dir="ltr"
-      // Suggested by `next-themes` package https://github.com/pacocoursey/next-themes#with-app
-      suppressHydrationWarning
-    >
-      <Head
-      // ... Your additional head options
-      >
-        {/* Your additional tags should be passed as `children` of `<Head>` element */}
+    <html lang="en" dir="ltr" suppressHydrationWarning>
+      <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="stylesheet" href={'https://cdn.boxicons.com/'+packageJson.icon_version+'/fonts/animations.min.css'} />
+        <link rel="stylesheet" href={'https://cdn.boxicons.com/'+packageJson.icon_version+'/fonts/transformations.min.css'} />
+        
+          <link rel="stylesheet" href="/fonts/boxicons-docs.min.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet" />
       </Head>
       <body>
         <Layout
@@ -43,13 +35,17 @@ export default async function RootLayout({ children }:{children: React.ReactNode
             content: 'Question? Give us feedback →',
             labels: 'feedback',
           }}
-        editLink={'Edit this page'}
+          editLink={'Edit this page'}
           banner={banner}
           navbar={navbar}
+          sidebar={{
+            defaultMenuCollapseLevel:1,
+            
+          }}
+        
           pageMap={await getPageMap()}
           docsRepositoryBase="https://github.com/atisawd/boxicons-docs/tree/main"
           footer={footer}
-          // ... Your additional layout options
         >
           {children}
         </Layout>

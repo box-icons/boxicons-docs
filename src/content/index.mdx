@@ -1,34 +1,35 @@
-# Introduction
+import { Cards } from 'nextra/components'
+import {BoxCard} from '../components/BoxCard'
+import Link from 'next/link'
+import Image from "next/image"
 
-Welcome to the Boxicons documentation
+# Get Started with Boxicons
 
-***
-
-### What is Boxicons?
-
-Boxicons is a High Quality web icons set which can be used to tune up your UI. In the current version, Boxicons has&#x20;
-3000+ free icons (Regular icons with a Filled variation) which can be used for Personal and Commercial Projects&#x20;
-Around 50k+ icon variations, with 3 weights, 3 styles (Regular, Rounded , Sharp), and Filled versions of basic icons and 3 weights, 3 styles (Regular, Rounded , Sharp) for Duotone and Duotone Solid icons.
-
-### What do i get with Boxicons Pro Version?
-
-You will get access to 50k+ icon variations with 3 weights, 3 styles and Filled version of of basic icons and 3 weights, 3 styles (Regular, Rounded , Sharp) for Duotone and Duotone Solid icons.
-Access to year long updates , which will include Duotone versions of each variation. Figma plugin which will be released in a month and NPM package further down the line.
-A smooth Icon explorer which gives you the required files in most formats in seconds, so you don't have to scroll through the pages.
-Teams and Enterprise users will be able to grant and revoke access to 8 and 40 users respectively.&#x20;
+<Image className="file-icon" src="/file.svg" alt="file" width={150} height={150} />
 
 
-### What's in the Future?
+Getting started with Boxicons is simple and flexible, whether you are a designer working in Figma or a developer building a web or app interface. This guide walks you through the essential steps to integrate Boxicons into your workflow and start using icons right away. You’ll learn how to install Boxicons using different methods, use the Figma plugin, import icons into your code, and customize their style, weight, and appearance. Whether you’re prototyping, building a design system, or shipping a production app, Boxicons helps you stay consistent, fast, and visually polished across all your projects.
 
-Duotone icons of the current icons will be added next with Figma plugin. New packs will also be added as soon as the duotone is released.
-We are also working on adding React and Vue packages for the icons.
+<Link className="main-button" href="/introduction">Let's Go</Link>
 
+---
+<br/>
+<Cards >
+<BoxCard
+    icon={<i className="bxdocs bxr-200-cursor-pen bx-md absolute right-5 top-5 opacity-50" />}
+    title="Fonts"
+    href="/font/usage"
+    description="Embed the icons directly into your project using icon fonts for fast and easy integration."
+  /><BoxCard
+    icon={<i className="bxdocs bx-figma bx-md absolute right-5 top-5 opacity-50" />}
+    title="Figma Plugin"
+    href="/figma/install"
+    description="Browse, search, and insert Boxicons directly into your designs using the Figma plugin."
+  /><BoxCard
+    icon={<i className="bxdocs bx-react bx-md absolute right-5 top-5 opacity-50" />}
+    title="React Package"
+    href="/react/install"
+    description="In Testing Phase. Use Boxicons as tree-shakable React components for a fast and modern development workflow."
+  />
+</Cards>
 
-
-
-***
-
-### Need Support?
-
-Contact us on [contact@boxicons.com](mailto\:contact@boxicons.com) to get issues resolved.
-We are here to help and will try our best to reply within 24 hrs

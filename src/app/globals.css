@@ -1,12 +1,244 @@
 @import "tailwindcss";
-@import 'nextra-theme-docs/style.css'; /* or nextra-theme-blog/style.css */
- 
-@variant dark (&:where(.dark *));
-@layer utilities {
-    .x\:dark\:bg-\[linear-gradient\(1deg\,\#383838\,\#212121\)\] {
-        &:where(.dark *) {
-          background-color: #6c00e3;
-          background-image: none;
-        }
-      }
-  }
+@import 'nextra-theme-docs/style.css';
+
+/* or nextra-theme-blog/style.css */
+:root {
+  --nextra-content-width: 100vw !important;
+  --nextra-article-width: 768px;
+    --nextra-primary-hue: 197deg!important; /* Purple-ish */
+  
+  /* For advanced control in Nextra 4, target the HSL variables directly */
+  --nextra-primary-saturation: 92%!important;
+  --nextra-primary-lightness: 43%!important;
+
+}
+
+body {
+
+  font-family: 'Outfit', sans-serif;
+}
+nav ul li a {
+  font-size: 0.9rem !important;
+font-weight: 400!important;
+
+}
+main{
+  position: relative;
+}
+.file-icon {
+  width: 100px;
+  position: absolute; 
+  top:-40px; right: 0;
+  transform: rotate(20deg);
+  height: 75px;
+  opacity: 0.1;
+}
+.dark .file-icon {
+  filter: invert(1);
+}
+.nextra-search-results{
+  border-radius: 1rem !important;
+}
+
+.icon-display {
+display: flex;
+gap: 5px;
+font-size: 2.5rem;
+margin: 15px 0;
+padding: 15px 15px;
+border-radius: 1rem;
+align-items: center;
+border: 1px solid #e5e7eb;
+
+}
+.figma-side{
+border-radius: 1.5rem !important;
+box-shadow: 0 5px 10px rgba(0,0,0,0.0.075) !important;
+}
+.dark .icon-display {
+  border-color: #2b2f3b !important;
+}
+.dark{
+  background-color: #00040f !important;
+  color: #ffffff !important;
+  --nextra-bg:0,4,15 !important;
+  --x-color-black: #0d111b!important;
+  --x-color-neutral-900: #00040f!important;
+  --x-color-neutral-800: #2b2f3b!important;
+}
+.nextra-sidebar-footer:where(.dark *){
+  background-color: #00040f !important;
+}
+
+.nextra-scrollbar ul li a,
+.nextra-scrollbar ul li button,
+.nextra-scrollbar ul li {
+  font-size: 1rem !important;
+  border-radius: 0.75rem !important;
+}
+.nextra-callout{
+  border-radius: 1rem !important;
+}
+article .nextra-breadcrumb {
+
+  max-width: var(--nextra-article-width) !important;
+  margin: 10px auto;
+
+}
+
+.main-button {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  background-color: #00040f;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  margin-top: 30px;
+   margin-bottom: 40px;
+}
+.nextra-cards{
+  gap: 1.5rem !important;
+}
+.nextra-card {
+  padding: 1rem !important;
+  border-radius: 1rem !important;
+  background-color: transparent !important;
+}
+.nextra-card:where(.dark *){
+  background-color: #0d111b !important;
+  border:0px solid #2b2f3b !important;
+}
+.nextra-card:where(.dark *):hover{
+  background-color: #2b2f3b !important;
+  border:0px solid #2b2f3b !important;
+}
+table td:where(.dark *),table th:where(.dark *),table tr:where(.dark *){
+  
+  border:1px solid #2b2f3b !important;
+}
+
+@layer base {
+   table{
+  box-shadow:inset 0 0 0 1px #c9c9c9 !important;
+}
+  table:where(.dark *){
+  box-shadow:inset 0 0 0 1px #2b2f3b !important;
+}
+footer{
+  background-color: #ffffff !important;
+  padding: 10px 25px;
+  justify-content: center;
+  font-size: 14px;
+}
+footer:where(.dark *){
+  background-color: #00040f !important;
+} 
+
+table{
+  display: inline-block!important;
+  scrollbar-width: none !important;
+  border-radius: 1rem !important;
+}}
+.nextra-container {
+  max-width: 1200px !important;
+}
+
+.nextra-card span {
+  font-size: 1.5rem !important;
+}
+
+.dark .main-button {
+  background-color: #fff;
+  color: #00040f;
+}
+
+article .nextra-border {
+  max-width: var(--nextra-article-width) !important;
+  margin: 0 auto;
+}
+
+article main[data-pagefind-body] {
+  max-width: var(--nextra-article-width) !important;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.75rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  margin-top: 60px;
+}
+
+h2 { padding-top: 2rem !important;
+  padding-bottom: 1rem !important;
+}
+.nextra-code span.x\:truncate{
+  font-size: 0.9rem !important;
+}
+div.nextra-code {
+  border-radius: 1rem !important;
+  border: 0px solid #e5e7eb !important;
+  overflow: hidden !important;
+  ;
+}
+
+div.nextra-code:where(.dark *) {
+  border: 0px solid #2b2f3b !important;
+
+}
+
+div.nextra-code div {
+  border: none !important;
+}
+div.nextra-code div {
+
+border-bottom:1px solid #eeeeee !important;
+}
+div.nextra-code div:where(.dark *) {
+background-color: #0d111b !important;
+border-bottom:1px solid #2b2f3b !important;
+}
+
+div.nextra-code svg{
+  height: 1rem;
+}
+div.nextra-code pre div {
+
+border-bottom:0px solid #2b2f3b !important;
+}
+div.nextra-code button {
+  
+border:0px solid #2b2f3b !important;
+
+}
+div.nextra-code button:hover {
+background:  #eee !important;
+}
+div.nextra-code button:where(.dark *):hover {
+background:  #2b2f3b !important;
+}
+pre {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+
+  --tw-ring-color: none !important;
+}
+
+.nextra-banner {
+  height: 2px !important;
+  background-image: linear-gradient(135deg, #c5ff0a, #2cdc4b, #099bd4, #9d25ff, #cb80ff, #c5ff0a) !important;
+}
+
+.nextra-banner button {
+  display: none;
+}
+.nextra-toc ul li a[aria-current="page"] {
+  border-left: 2px solid var(--primary-color) !important;
+  padding-left: 1rem;
+  margin-left: -2px; /* Align with the existing gutter */
+}

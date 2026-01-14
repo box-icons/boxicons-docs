@@ -1,0 +1,40 @@
+import { Callout } from 'nextra/components'
+
+# List Icons
+
+Boxicons makes it easy to use icons as custom bullets for lists. This is useful for feature lists, checklists, menus, or any place where you want more visual clarity than standard bullet points.
+
+To enable icon bullets, add the `bx-ul` class to your `<ul>` element and place an icon inside each `<li>` item.
+<br/>
+---
+<Callout type="warning">
+ Make sure you have included the transformations stylesheet before using these classes.
+</Callout>
+
+
+```html filename="transformations.min.css" copy
+<link href="https://cdn.boxicons.com/{{VERSION}}/fonts/transformations.min.css" rel="stylesheet">
+```
+
+```html copy
+<ul class='bx-ul'>
+<li><i class='bx  bx-right-arrow'></i>List Item 1</li>
+<li><i  class='bx  bx-x'></i>List Item 2</li>
+<li><i  class='bx  bx-plus'></i>List Item 3</li>
+</ul>
+```
+<div className="icon-display">
+<ul className='bx-ul' style={{ fontSize: '24px' }}>
+<li style={{ alignItems: 'center', display: 'flex', gap: '10px' }}><i className='bxdocs  bxrf-200-happy'></i>List Item 1</li>
+<li style={{ alignItems: 'center', display: 'flex', gap: '10px' }}><i className='bxdocs  bxrf-200-shocked'></i>List Item 2</li>
+<li style={{ alignItems: 'center', display: 'flex', gap: '10px' }}><i className='bxdocs  bxrf-200-dizzy'></i>List Item 3</li>
+</ul>
+</div>
+
+#### How it works
+
+* The `bx-ul` class removes the default list styling and aligns icons automatically.
+* Each list item contains an icon element followed by the text.
+* Icons are positioned and spaced consistently so all items line up neatly.
+
+This ensures proper alignment even when list items wrap onto multiple lines.
