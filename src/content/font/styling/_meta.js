@@ -16,5 +16,8 @@ export default {
   },
   border: {
     title: 'Border',
+  },
+  padding: {
+    title: 'Remove Padding',
   }
 }

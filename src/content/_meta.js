@@ -42,5 +42,10 @@ export default {
                 <i className="bxdocs bx-react"  /> React
             </span>
         )
-    }
+    },
+    home_page: {
+    title: 'Home Page',
+    type: 'page',
+    href: 'https://boxicons.com'
+  }
 }

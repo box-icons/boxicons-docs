@@ -1,0 +1,16 @@
+# Remove Padding
+Boxicons by default come with some padding around the icons to ensure they are visually balanced. However, in certain design scenarios, you might want to remove this padding for a tighter fit.
+
+## How to Remove Padding
+To remove the default padding from Boxicons, you can add the following CSS class to your icon element:
+`bx-remove-padding`
+This class eliminates the extra space around the icon, allowing it to fit more snugly within its container.
+No need to import any additional CSS files; the class is included in the main Boxicons stylesheet.
+```html copy
+<i class="bxf bx-golf-ball">
+<i class="bxf bx-golf-ball bx-remove-padding">
+```
+<div className="icon-display">
+<i className="bxdocs bxrf-200-golf-ball" style={{backgroundColor: '#c5ff0a', color: '#000'}}></i>
+<i className="bxdocs bxrf-200-golf-ball bx-remove-padding" style={{backgroundColor: '#c5ff0a', color: '#000'}}></i>
+</div>

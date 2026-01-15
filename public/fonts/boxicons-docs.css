@@ -22,6 +22,11 @@ url("./boxicons-docs.woff2?a283c98148fd97ce36bbeeeca04a2c5c") format("woff2");
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
 }
+.bxdocs.bxrf-200-golf-ball.bx-remove-padding:before{
+display:block;
+
+transform:scale(1.33);
+}
 .bxdocs:before{
 color:var(--bx-duotone-primary-color,currentColor);
  opacity:var(--bx-duotone-primary-opacity,1);

@@ -52,8 +52,12 @@ border: 1px solid #e5e7eb;
 
 }
 .figma-side{
-border-radius: 1.5rem !important;
-box-shadow: 0 5px 10px rgba(0,0,0,0.0.075) !important;
+
+border:1px solid #e5e7eb !important;  
+
+}
+.dark .figma-side{
+  border-color: #2b2f3b !important;
 }
 .dark .icon-display {
   border-color: #2b2f3b !important;
