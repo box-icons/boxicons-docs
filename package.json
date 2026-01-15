@@ -1,7 +1,7 @@
 {
   "name": "boxicons-docs",
   "version": "1.0.0",
-    "icon_version": "3.0.7",
+    "icon_version": "3.0.8",
   "description": "",
   "license": "ISC",
   "author": "",
@@ -12,7 +12,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postbuild": "pagefind --site out --output-path out/_pagefind",
+    "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind",
     "add": "git add .",
     "push": "git push -u origin main"
   },
