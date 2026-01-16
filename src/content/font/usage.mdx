@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Bleed } from 'nextra/components';
+import { Bleed,Callout } from 'nextra/components';
 
 # Usage as a Font
 
@@ -41,9 +41,14 @@ To render an icon, add an `i` tag with the icon’s class name.
 
 - `bx-` prefix is used for all icons
 
+<Callout type="info" title="Icon Naming Convention">
+<p>When using multiple fonts please make sure the basic pack link tag is on top , followed by the rest</p>
+</Callout>
+
 Example:
 
 ```html
+<!--  <i class="BX_CLASS BX-ICON_NAME"> -->
 <i class="bx bx-volleyball"></i>
 <i class="bxf bx-volleyball"></i>
 <i class="bxl bx-twitter"></i>
@@ -53,6 +58,27 @@ Example:
 <i className="bxdocs bxf-volleyball"></i>
 <i className="bxdocs bx-twitter"></i>
 </div>
+
+### Class Names
+
+| Pack   | Style |  Class |
+| :----- | :----: | ----: |
+| basic    |  regular   |    bx |
+| basic | rounded  |   bxr |  
+| basic | sharp  |  bxs |  
+| filled    |  regular   |    bxf |
+| filled | rounded  |   bxrf |  
+| filled | sharp  |  bxsf |  
+| duotone    |  regular   |    bxd |
+| duotone | rounded  |   bxrd |  
+| duotone | sharp  |  bxsd |  
+| duotone-solid    |  regular   |    bxds |
+| duotone-solid | rounded  |   bxrds |  
+| duotone-solid | sharp  |  bxsds |  
+| duotone-mix    |  regular   |    bxdm |
+| duotone-mix | rounded  |   bxrdm |  
+| duotone-mix | sharp  |  bxsdm |  
+| brands   |  regular   |    bxl |
 
 ### Starter Template
 Here’s a minimal HTML template to get you started:
