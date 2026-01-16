@@ -1029,9 +1029,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const metadata = {
     "title": "Animations",
     "filePath": "src/content/font/animation.mdx",
-    "timestamp": 1768555363714
+    "timestamp": 1768556383376
 };
-const sourceCode = "# Animations\n\nBoxicons comes with a set of pre-built CSS animations that let you add motion to your icons with simple utility classes. Animations are useful for drawing attention to actions, indicating loading states, or adding subtle feedback to your UI.\n<br/>\n---\n## Enable Animations\n\nTo use the animation utilities, you first need to include the animations stylesheet in the `<head>` of your page:\n\n```html filename=\"animations.min.css\" copy\n<link href=\"https://cdn.boxicons.com/{{VERSION}}/fonts/animations.min.css\" rel=\"stylesheet\">\n```\n\n## Basic Animations\n\nYou can apply an animation to an icon by adding one of the animation classes directly to it.\n\n### Available animation classes\n\n* `bx-spin`\n* `bx-tada`\n* `bx-flashing`\n* `bx-burst`\n* `bx-fade-left`\n* `bx-fade-right`\n* `bx-fade-up`\n* `bx-fade-down`\n* `bx-breathe`\n* `bx-beat`\n* `bx-wiggle`\n* `bx-bounce`\n\n```html copy\n<i class=\"bxf bx-thumb-up bx-spin\"></i>\n<i class=\"bxf bx-thumb-up bx-tada\"></i>\n<i class=\"bxf bx-thumb-up bx-bounce\"></i>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bxrf-200-golf-ball bx-spin\"></i>\n<i className=\"bxdocs bxrf-200-golf-ball bx-tada\"></i>\n<i className=\"bxdocs bxrf-200-golf-ball bx-bounce\"></i>\n</div>\n\nThese animations run continuously by default.\n\n## On Hover Animation\n\nIf you only want the animation to play when the user hovers over the icon, use the -hover variants of the animation classes.\n\n### Hover animation classes\n\n* `bx-spin-hover`\n* `bx-tada-hover`\n* `bx-flashing-hover`\n* `bx-burst-hover`\n* `bx-fade-left-hover`\n* `bx-fade-right-hover`\n* `bx-fade-up-hover`\n* `bx-fade-down-hover`\n* `bx-breathe-hover`\n* `bx-beat-hover`\n* `bx-wiggle-hover`\n* `bx-bounce-hover`\n\n```html copy\n<i class=\"bxf bx-thumb-up bx-spin-hover\"></i>\n<i class=\"bxf bx-thumb-up bx-tada-hover\"></i>\n<i class=\"bxf bx-thumb-up bx-bounce-hover\"></i>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bxrf-200-golf-ball bx-spin-hover\"></i>\n<i className=\"bxdocs bxrf-200-golf-ball bx-tada-hover\"></i>\n<i className=\"bxdocs bxrf-200-golf-ball bx-bounce-hover\"></i>\n</div>\n\n\n## Controlling Animation Speed and Repetition\n\nBecause these are pure CSS animations, you can fully control them using standard CSS properties:\n\n* `animation-duration` — controls how fast or slow the animation runs\n* `animation-iteration-count` — controls how many times the animation repeats\n\n```html copy\n<i\n  class=\"bxf bx-thumb-up bx-spin\"\n  style=\"animation-duration: 2s; animation-iteration-count: 1;\"\n></i>\n```";
+const sourceCode = "# Animations\n\nBoxicons comes with a set of pre-built CSS animations that let you add motion to your icons with simple utility classes. Animations are useful for drawing attention to actions, indicating loading states, or adding subtle feedback to your UI.\n<br/>\n---\n## Enable Animations\n\nTo use the animation utilities, you first need to include the animations stylesheet in the `<head>` of your page:\n\n```html filename=\"animations.min.css\" copy\n<link href=\"https://cdn.boxicons.com/animations.min.css\" rel=\"stylesheet\">\n```\n\n## Basic Animations\n\nYou can apply an animation to an icon by adding one of the animation classes directly to it.\n\n### Available animation classes\n\n* `bx-spin`\n* `bx-tada`\n* `bx-flashing`\n* `bx-burst`\n* `bx-fade-left`\n* `bx-fade-right`\n* `bx-fade-up`\n* `bx-fade-down`\n* `bx-breathe`\n* `bx-beat`\n* `bx-wiggle`\n* `bx-bounce`\n\n```html copy\n<i class=\"bxf bx-thumb-up bx-spin\"></i>\n<i class=\"bxf bx-thumb-up bx-tada\"></i>\n<i class=\"bxf bx-thumb-up bx-bounce\"></i>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bxrf-200-golf-ball bx-spin\"></i>\n<i className=\"bxdocs bxrf-200-golf-ball bx-tada\"></i>\n<i className=\"bxdocs bxrf-200-golf-ball bx-bounce\"></i>\n</div>\n\nThese animations run continuously by default.\n\n## On Hover Animation\n\nIf you only want the animation to play when the user hovers over the icon, use the -hover variants of the animation classes.\n\n### Hover animation classes\n\n* `bx-spin-hover`\n* `bx-tada-hover`\n* `bx-flashing-hover`\n* `bx-burst-hover`\n* `bx-fade-left-hover`\n* `bx-fade-right-hover`\n* `bx-fade-up-hover`\n* `bx-fade-down-hover`\n* `bx-breathe-hover`\n* `bx-beat-hover`\n* `bx-wiggle-hover`\n* `bx-bounce-hover`\n\n```html copy\n<i class=\"bxf bx-thumb-up bx-spin-hover\"></i>\n<i class=\"bxf bx-thumb-up bx-tada-hover\"></i>\n<i class=\"bxf bx-thumb-up bx-bounce-hover\"></i>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bxrf-200-golf-ball bx-spin-hover\"></i>\n<i className=\"bxdocs bxrf-200-golf-ball bx-tada-hover\"></i>\n<i className=\"bxdocs bxrf-200-golf-ball bx-bounce-hover\"></i>\n</div>\n\n\n## Controlling Animation Speed and Repetition\n\nBecause these are pure CSS animations, you can fully control them using standard CSS properties:\n\n* `animation-duration` — controls how fast or slow the animation runs\n* `animation-iteration-count` — controls how many times the animation repeats\n\n```html copy\n<i\n  class=\"bxf bx-thumb-up bx-spin\"\n  style=\"animation-duration: 2s; animation-iteration-count: 1;\"\n></i>\n```";
 function useTOC(props) {
     return [
         {
@@ -1198,7 +1198,7 @@ function _createMdxContent(props) {
                                     "--shiki-light": "#032F62",
                                     "--shiki-dark": "#9ECBFF"
                                 },
-                                children: "\"https://cdn.boxicons.com/{{VERSION}}/fonts/animations.min.css\""
+                                children: "\"https://cdn.boxicons.com/animations.min.css\""
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/animation.mdx.tsx",
                                 lineNumber: 65,
@@ -1213,7 +1213,7 @@ function _createMdxContent(props) {
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/animation.mdx.tsx",
                                 lineNumber: 68,
-                                columnNumber: 94
+                                columnNumber: 76
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
                                 style: {
@@ -2661,10 +2661,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$nextra$2f$di
 const metadata = {
     "title": "Border",
     "filePath": "src/content/font/styling/border.mdx",
-    "timestamp": 1768555361972
+    "timestamp": 1768556383376
 };
 ;
-const sourceCode = "import { Callout } from 'nextra/components'\n\n# Border\n\nBoxicons provides utility classes that let you quickly add a border around any icon. This is useful when you want to display icons as buttons, badges, or highlighted UI elements without writing custom CSS.\n<br/>\n---\nTwo border styles are available:\n\n- `bx-border` — adds a square (rounded-rectangle) border around the icon  \n- `bx-border-circle` — adds a circular border around the icon  \n\n\n<Callout type=\"warning\">\n Make sure you have included the transformations stylesheet before using these classes.\n</Callout>\n\n```html filename=\"transformations.min.css\" copy\n<link href=\"https://cdn.boxicons.com/{{VERSION}}/fonts/transformations.min.css\" rel=\"stylesheet\">\n```\n\n```html \n<i class=\"bxf bx-thumb-up bx-border\"></i>\n<i class=\"bxf bx-thumb-up bx-border-circle\"></i>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bxrf-200-thumb-up bx-border\"></i>\n<i className=\"bxdocs bxrf-200-thumb-up bx-border-circle\"></i>\n</div>\n#### How it works\n\n* The border is drawn using CSS around the icon glyph.\n* The icon remains fully scalable and inherits color and size normally.\n* The border automatically scales with the icon size.\n\nThis means you can combine borders with sizing, color, and rotation utilities:\n\n```html copy\n<i class=\"bx bx-heart bx-border bx-lg\" style=\"color: red;\"></i>\n<i class=\"bx bx-heart bx-border-circle bx-sm\"></i>\n```";
+const sourceCode = "import { Callout } from 'nextra/components'\n\n# Border\n\nBoxicons provides utility classes that let you quickly add a border around any icon. This is useful when you want to display icons as buttons, badges, or highlighted UI elements without writing custom CSS.\n<br/>\n---\nTwo border styles are available:\n\n- `bx-border` — adds a square (rounded-rectangle) border around the icon  \n- `bx-border-circle` — adds a circular border around the icon  \n\n\n<Callout type=\"warning\">\n Make sure you have included the transformations stylesheet before using these classes.\n</Callout>\n\n```html filename=\"transformations.min.css\" copy\n<link href=\"https://cdn.boxicons.com/transformations.min.css\" rel=\"stylesheet\">\n```\n\n```html \n<i class=\"bxf bx-thumb-up bx-border\"></i>\n<i class=\"bxf bx-thumb-up bx-border-circle\"></i>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bxrf-200-thumb-up bx-border\"></i>\n<i className=\"bxdocs bxrf-200-thumb-up bx-border-circle\"></i>\n</div>\n#### How it works\n\n* The border is drawn using CSS around the icon glyph.\n* The icon remains fully scalable and inherits color and size normally.\n* The border automatically scales with the icon size.\n\nThis means you can combine borders with sizing, color, and rotation utilities:\n\n```html copy\n<i class=\"bx bx-heart bx-border bx-lg\" style=\"color: red;\"></i>\n<i class=\"bx bx-heart bx-border-circle bx-sm\"></i>\n```";
 function useTOC(props) {
     return [
         {
@@ -2845,7 +2845,7 @@ function _createMdxContent(props) {
                                     "--shiki-light": "#032F62",
                                     "--shiki-dark": "#9ECBFF"
                                 },
-                                children: "\"https://cdn.boxicons.com/{{VERSION}}/fonts/transformations.min.css\""
+                                children: "\"https://cdn.boxicons.com/transformations.min.css\""
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/border.mdx.tsx",
                                 lineNumber: 45,
@@ -2860,7 +2860,7 @@ function _createMdxContent(props) {
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/border.mdx.tsx",
                                 lineNumber: 48,
-                                columnNumber: 99
+                                columnNumber: 81
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
                                 style: {
@@ -4999,10 +4999,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$nextra$2f$di
 const metadata = {
     "title": "List Icons",
     "filePath": "src/content/font/styling/list.mdx",
-    "timestamp": 1768555361972
+    "timestamp": 1768556383376
 };
 ;
-const sourceCode = "import { Callout } from 'nextra/components'\n\n# List Icons\n\nBoxicons makes it easy to use icons as custom bullets for lists. This is useful for feature lists, checklists, menus, or any place where you want more visual clarity than standard bullet points.\n\nTo enable icon bullets, add the `bx-ul` class to your `<ul>` element and place an icon inside each `<li>` item.\n<br/>\n---\n<Callout type=\"warning\">\n Make sure you have included the transformations stylesheet before using these classes.\n</Callout>\n\n\n```html filename=\"transformations.min.css\" copy\n<link href=\"https://cdn.boxicons.com/{{VERSION}}/fonts/transformations.min.css\" rel=\"stylesheet\">\n```\n\n```html copy\n<ul class='bx-ul'>\n<li><i class='bx  bx-right-arrow'></i>List Item 1</li>\n<li><i  class='bx  bx-x'></i>List Item 2</li>\n<li><i  class='bx  bx-plus'></i>List Item 3</li>\n</ul>\n```\n<div className=\"icon-display\">\n<ul className='bx-ul' style={{ fontSize: '24px' }}>\n<li style={{ alignItems: 'center', display: 'flex', gap: '10px' }}><i className='bxdocs  bxrf-200-happy'></i>List Item 1</li>\n<li style={{ alignItems: 'center', display: 'flex', gap: '10px' }}><i className='bxdocs  bxrf-200-shocked'></i>List Item 2</li>\n<li style={{ alignItems: 'center', display: 'flex', gap: '10px' }}><i className='bxdocs  bxrf-200-dizzy'></i>List Item 3</li>\n</ul>\n</div>\n\n#### How it works\n\n* The `bx-ul` class removes the default list styling and aligns icons automatically.\n* Each list item contains an icon element followed by the text.\n* Icons are positioned and spaced consistently so all items line up neatly.\n\nThis ensures proper alignment even when list items wrap onto multiple lines.";
+const sourceCode = "import { Callout } from 'nextra/components'\n\n# List Icons\n\nBoxicons makes it easy to use icons as custom bullets for lists. This is useful for feature lists, checklists, menus, or any place where you want more visual clarity than standard bullet points.\n\nTo enable icon bullets, add the `bx-ul` class to your `<ul>` element and place an icon inside each `<li>` item.\n<br/>\n---\n<Callout type=\"warning\">\n Make sure you have included the transformations stylesheet before using these classes.\n</Callout>\n\n\n```html filename=\"transformations.min.css\" copy\n<link href=\"https://cdn.boxicons.com/transformations.min.css\" rel=\"stylesheet\">\n```\n\n```html copy\n<ul class='bx-ul'>\n<li><i class='bx  bx-right-arrow'></i>List Item 1</li>\n<li><i  class='bx  bx-x'></i>List Item 2</li>\n<li><i  class='bx  bx-plus'></i>List Item 3</li>\n</ul>\n```\n<div className=\"icon-display\">\n<ul className='bx-ul' style={{ fontSize: '24px' }}>\n<li style={{ alignItems: 'center', display: 'flex', gap: '10px' }}><i className='bxdocs  bxrf-200-happy'></i>List Item 1</li>\n<li style={{ alignItems: 'center', display: 'flex', gap: '10px' }}><i className='bxdocs  bxrf-200-shocked'></i>List Item 2</li>\n<li style={{ alignItems: 'center', display: 'flex', gap: '10px' }}><i className='bxdocs  bxrf-200-dizzy'></i>List Item 3</li>\n</ul>\n</div>\n\n#### How it works\n\n* The `bx-ul` class removes the default list styling and aligns icons automatically.\n* Each list item contains an icon element followed by the text.\n* Icons are positioned and spaced consistently so all items line up neatly.\n\nThis ensures proper alignment even when list items wrap onto multiple lines.";
 function useTOC(props) {
     return [
         {
@@ -5165,7 +5165,7 @@ function _createMdxContent(props) {
                                     "--shiki-light": "#032F62",
                                     "--shiki-dark": "#9ECBFF"
                                 },
-                                children: "\"https://cdn.boxicons.com/{{VERSION}}/fonts/transformations.min.css\""
+                                children: "\"https://cdn.boxicons.com/transformations.min.css\""
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/list.mdx.tsx",
                                 lineNumber: 45,
@@ -5180,7 +5180,7 @@ function _createMdxContent(props) {
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/list.mdx.tsx",
                                 lineNumber: 48,
-                                columnNumber: 99
+                                columnNumber: 81
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
                                 style: {
@@ -6254,10 +6254,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$nextra$2f$di
 const metadata = {
     "title": "Pulled Icons",
     "filePath": "src/content/font/styling/pulled.mdx",
-    "timestamp": 1768555364236
+    "timestamp": 1768556383376
 };
 ;
-const sourceCode = "import { Callout } from 'nextra/components'\n\n# Pulled Icons\n\nPulled icons let you float an icon to the left or right of a block of text, similar to how pull quotes or floated images work in articles. This is useful for highlighting quotes, notes, tips, or callouts inside long-form content.\n<br/>\n---\nBoxicons provides two utility classes for this:\n\n- `bx-pull-left` — floats the icon to the left of the text  \n- `bx-pull-right` — floats the icon to the right of the text  \n\n\n\n<Callout type=\"warning\">\n Make sure you have included the transformations stylesheet before using these classes.\n</Callout>\n\n```html filename=\"transformations.min.css\" copy\n<link href=\"https://cdn.boxicons.com/{{VERSION}}/fonts/transformations.min.css\" rel=\"stylesheet\">\n```\n\n```html copy\n<i class=\"bx-pull-left bxf bx-quote-alt-left bx-lg\"></i>\n<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. \nUt faucibus erat eu nibh laoreet, sed ullamcorper diam ornare. \nQuisque viverra ante nec luctus imperdiet. Quisque ut imperdiet nisi. \nQuisque ultrices laoreet odio, non vestibulum lacus molestie sollicitudin. \nPhasellus nec dolor eget nunc commodo sodales vel vel eros.</span>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bxrf-200-quote-left bx-pull-left bx-lg\"></i>\n<span style={{fontSize: '18px'}}>\nLorem ipsum dolor sit amet, consectetur adipiscing elit. \nUt faucibus erat eu nibh laoreet, sed ullamcorper diam ornare. \nQuisque viverra ante nec luctus imperdiet. Quisque ut imperdiet nisi. \nQuisque ultrices laoreet odio, non vestibulum lacus molestie sollicitudin. \nPhasellus nec dolor eget nunc commodo sodales vel vel eros.\n</span>\n</div>\n\n#### How it works\n\n* The icon is floated to one side of the text.\n* The surrounding text wraps naturally around the icon.\n* Spacing and alignment are handled automatically by the utility class.\n\nThis creates a magazine-style layout that draws attention to important content.";
+const sourceCode = "import { Callout } from 'nextra/components'\n\n# Pulled Icons\n\nPulled icons let you float an icon to the left or right of a block of text, similar to how pull quotes or floated images work in articles. This is useful for highlighting quotes, notes, tips, or callouts inside long-form content.\n<br/>\n---\nBoxicons provides two utility classes for this:\n\n- `bx-pull-left` — floats the icon to the left of the text  \n- `bx-pull-right` — floats the icon to the right of the text  \n\n\n\n<Callout type=\"warning\">\n Make sure you have included the transformations stylesheet before using these classes.\n</Callout>\n\n```html filename=\"transformations.min.css\" copy\n<link href=\"https://cdn.boxicons.com/transformations.min.css\" rel=\"stylesheet\">\n```\n\n```html copy\n<i class=\"bx-pull-left bxf bx-quote-alt-left bx-lg\"></i>\n<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. \nUt faucibus erat eu nibh laoreet, sed ullamcorper diam ornare. \nQuisque viverra ante nec luctus imperdiet. Quisque ut imperdiet nisi. \nQuisque ultrices laoreet odio, non vestibulum lacus molestie sollicitudin. \nPhasellus nec dolor eget nunc commodo sodales vel vel eros.</span>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bxrf-200-quote-left bx-pull-left bx-lg\"></i>\n<span style={{fontSize: '18px'}}>\nLorem ipsum dolor sit amet, consectetur adipiscing elit. \nUt faucibus erat eu nibh laoreet, sed ullamcorper diam ornare. \nQuisque viverra ante nec luctus imperdiet. Quisque ut imperdiet nisi. \nQuisque ultrices laoreet odio, non vestibulum lacus molestie sollicitudin. \nPhasellus nec dolor eget nunc commodo sodales vel vel eros.\n</span>\n</div>\n\n#### How it works\n\n* The icon is floated to one side of the text.\n* The surrounding text wraps naturally around the icon.\n* Spacing and alignment are handled automatically by the utility class.\n\nThis creates a magazine-style layout that draws attention to important content.";
 function useTOC(props) {
     return [
         {
@@ -6438,7 +6438,7 @@ function _createMdxContent(props) {
                                     "--shiki-light": "#032F62",
                                     "--shiki-dark": "#9ECBFF"
                                 },
-                                children: "\"https://cdn.boxicons.com/{{VERSION}}/fonts/transformations.min.css\""
+                                children: "\"https://cdn.boxicons.com/transformations.min.css\""
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/pulled.mdx.tsx",
                                 lineNumber: 45,
@@ -6453,7 +6453,7 @@ function _createMdxContent(props) {
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/pulled.mdx.tsx",
                                 lineNumber: 48,
-                                columnNumber: 99
+                                columnNumber: 81
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
                                 style: {
@@ -6868,10 +6868,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$nextra$2f$di
 const metadata = {
     "title": "Rotation & Flipping",
     "filePath": "src/content/font/styling/rotate.mdx",
-    "timestamp": 1768555364684
+    "timestamp": 1768556383413
 };
 ;
-const sourceCode = "import { Callout } from 'nextra/components'\n\n# Rotation & Flipping\n\nBoxicons provides utility classes to easily rotate or flip icons without writing any custom CSS. These transformations are applied using CSS and work consistently across all icon types.\n<br/>\n---\n<Callout type=\"warning\">\n Make sure you have included the transformations stylesheet before using these classes.\n</Callout>\n\n```html filename=\"transformations.min.css\" copy\n<link href=\"https://cdn.boxicons.com/{{VERSION}}/fonts/transformations.min.css\" rel=\"stylesheet\">\n```\n\n### Rotating Icons\n\nYou can rotate an icon by applying one of the following classes:\n* `bx-rotate-90` — rotates the icon by 90°\n\n* `bx-rotate-180` — rotates the icon by 180°\n\n* `bx-rotate-270` — rotates the icon by 270°\n\n```html copy\n<i class=\"bxf bx-wink-smile bx-rotate-90\"></i>\n<i class=\"bxf bx-wink-smile bx-rotate-180\"></i>\n<i class=\"bxf bx-wink-smile bx-rotate-270\"></i>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bxrf-200-wink-smile bx-rotate-90\"></i>\n<i className=\"bxdocs bxrf-200-wink-smile bx-rotate-180\"></i>\n<i className=\"bxdocs bxrf-200-wink-smile bx-rotate-270\"></i>\n</div>\n\n### Flipping Icons\n\nYou can also mirror icons horizontally or vertically using the following classes:\n\n* `bx-flip-horizontal` — flips the icon left to right\n\n* `bx-flip-vertical` — flips the icon top to bottom\n\n```html copy\n<i class=\"bxf bx-wink-smile bx-flip-horizontal\"></i>\n<i class=\"bxf bx-wink-smile bx-flip-vertical\"></i>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bxrf-200-wink-smile bx-flip-horizontal\"></i>\n<i className=\"bxdocs bxrf-200-wink-smile bx-flip-vertical\"></i>\n</div>\n\n### Combining Transformations\n\nYou can combine rotation and flip classes together to achieve more complex transformations.\n\n```html copy\n<i class=\"bxf bx-wink-smile bx-rotate-90 bx-flip-horizontal\"></i>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bxrf-200-wink-smile bx-rotate-90 bx-flip-horizontal\"></i>\n\n</div>";
+const sourceCode = "import { Callout } from 'nextra/components'\n\n# Rotation & Flipping\n\nBoxicons provides utility classes to easily rotate or flip icons without writing any custom CSS. These transformations are applied using CSS and work consistently across all icon types.\n<br/>\n---\n<Callout type=\"warning\">\n Make sure you have included the transformations stylesheet before using these classes.\n</Callout>\n\n```html filename=\"transformations.min.css\" copy\n<link href=\"https://cdn.boxicons.com/transformations.min.css\" rel=\"stylesheet\">\n```\n\n### Rotating Icons\n\nYou can rotate an icon by applying one of the following classes:\n* `bx-rotate-45` — rotates the icon by 45°\n* `bx-rotate-90` — rotates the icon by 90°\n* `bx-rotate-135` — rotates the icon by 135°\n* `bx-rotate-180` — rotates the icon by 180°\n* `bx-rotate-225` — rotates the icon by 225°    \n* `bx-rotate-270` — rotates the icon by 270°\n* `bx-rotate-315` — rotates the icon by 315°\n\n```html copy\n<i class=\"bxf bx-wink-smile bx-rotate-45\"></i>\n<i class=\"bxf bx-wink-smile bx-rotate-90\"></i>\n<i class=\"bxf bx-wink-smile bx-rotate-135\"></i>\n<i class=\"bxf bx-wink-smile bx-rotate-180\"></i>\n<i class=\"bxf bx-wink-smile bx-rotate-225\"></i>\n<i class=\"bxf bx-wink-smile bx-rotate-270\"></i>\n<i class=\"bxf bx-wink-smile bx-rotate-315\"></i>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bxrf-200-wink-smile bx-rotate-45\"></i>\n<i className=\"bxdocs bxrf-200-wink-smile bx-rotate-90\"></i>\n<i className=\"bxdocs bxrf-200-wink-smile bx-rotate-135\"></i>\n<i className=\"bxdocs bxrf-200-wink-smile bx-rotate-180\"></i>\n<i className=\"bxdocs bxrf-200-wink-smile bx-rotate-225\"></i>\n<i className=\"bxdocs bxrf-200-wink-smile bx-rotate-270\"></i>\n<i className=\"bxdocs bxrf-200-wink-smile bx-rotate-315\"></i>\n</div>\n\n### Flipping Icons\n\nYou can also mirror icons horizontally or vertically using the following classes:\n\n* `bx-flip-horizontal` — flips the icon left to right\n\n* `bx-flip-vertical` — flips the icon top to bottom\n\n```html copy\n<i class=\"bxf bx-wink-smile bx-flip-horizontal\"></i>\n<i class=\"bxf bx-wink-smile bx-flip-vertical\"></i>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bxrf-200-wink-smile bx-flip-horizontal\"></i>\n<i className=\"bxdocs bxrf-200-wink-smile bx-flip-vertical\"></i>\n</div>\n\n### Combining Transformations\n\nYou can combine rotation and flip classes together to achieve more complex transformations.\n\n```html copy\n<i class=\"bxf bx-wink-smile bx-rotate-90 bx-flip-horizontal\"></i>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bxrf-200-wink-smile bx-rotate-90 bx-flip-horizontal\"></i>\n\n</div>";
 function useTOC(props) {
     return [
         {
@@ -7010,7 +7010,7 @@ function _createMdxContent(props) {
                                     "--shiki-light": "#032F62",
                                     "--shiki-dark": "#9ECBFF"
                                 },
-                                children: "\"https://cdn.boxicons.com/{{VERSION}}/fonts/transformations.min.css\""
+                                children: "\"https://cdn.boxicons.com/transformations.min.css\""
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                                 lineNumber: 53,
@@ -7025,7 +7025,7 @@ function _createMdxContent(props) {
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                                 lineNumber: 56,
-                                columnNumber: 99
+                                columnNumber: 81
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
                                 style: {
@@ -7099,24 +7099,14 @@ function _createMdxContent(props) {
                     "\n",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.li, {
                         children: [
-                            "\n",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.p, {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.code, {
-                                        children: "bx-rotate-90"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                                        lineNumber: 68,
-                                        columnNumber: 324
-                                    }, this),
-                                    " — rotates the icon by 90°"
-                                ]
-                            }, void 0, true, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.code, {
+                                children: "bx-rotate-45"
+                            }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                                 lineNumber: 68,
-                                columnNumber: 309
+                                columnNumber: 303
                             }, this),
-                            "\n"
+                            " — rotates the icon by 45°"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
@@ -7126,56 +7116,104 @@ function _createMdxContent(props) {
                     "\n",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.li, {
                         children: [
-                            "\n",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.p, {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.code, {
-                                        children: "bx-rotate-180"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                                        lineNumber: 68,
-                                        columnNumber: 489
-                                    }, this),
-                                    " — rotates the icon by 180°"
-                                ]
-                            }, void 0, true, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.code, {
+                                children: "bx-rotate-90"
+                            }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                                 lineNumber: 68,
-                                columnNumber: 474
+                                columnNumber: 425
                             }, this),
-                            "\n"
+                            " — rotates the icon by 90°"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                         lineNumber: 68,
-                        columnNumber: 452
+                        columnNumber: 409
                     }, this),
                     "\n",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.li, {
                         children: [
-                            "\n",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.p, {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.code, {
-                                        children: "bx-rotate-270"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                                        lineNumber: 68,
-                                        columnNumber: 656
-                                    }, this),
-                                    " — rotates the icon by 270°"
-                                ]
-                            }, void 0, true, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.code, {
+                                children: "bx-rotate-135"
+                            }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                                 lineNumber: 68,
-                                columnNumber: 641
+                                columnNumber: 547
                             }, this),
-                            "\n"
+                            " — rotates the icon by 135°"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                         lineNumber: 68,
-                        columnNumber: 619
+                        columnNumber: 531
+                    }, this),
+                    "\n",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.li, {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.code, {
+                                children: "bx-rotate-180"
+                            }, void 0, false, {
+                                fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                lineNumber: 68,
+                                columnNumber: 671
+                            }, this),
+                            " — rotates the icon by 180°"
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                        lineNumber: 68,
+                        columnNumber: 655
+                    }, this),
+                    "\n",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.li, {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.code, {
+                                children: "bx-rotate-225"
+                            }, void 0, false, {
+                                fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                lineNumber: 68,
+                                columnNumber: 795
+                            }, this),
+                            " — rotates the icon by 225°"
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                        lineNumber: 68,
+                        columnNumber: 779
+                    }, this),
+                    "\n",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.li, {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.code, {
+                                children: "bx-rotate-270"
+                            }, void 0, false, {
+                                fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                lineNumber: 68,
+                                columnNumber: 919
+                            }, this),
+                            " — rotates the icon by 270°"
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                        lineNumber: 68,
+                        columnNumber: 903
+                    }, this),
+                    "\n",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.li, {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.code, {
+                                children: "bx-rotate-315"
+                            }, void 0, false, {
+                                fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                lineNumber: 68,
+                                columnNumber: 1043
+                            }, this),
+                            " — rotates the icon by 315°"
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                        lineNumber: 68,
+                        columnNumber: 1027
                     }, this),
                     "\n"
                 ]
@@ -7204,7 +7242,7 @@ function _createMdxContent(props) {
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                                     lineNumber: 68,
-                                    columnNumber: 954
+                                    columnNumber: 1319
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
                                     style: {
@@ -7244,7 +7282,7 @@ function _createMdxContent(props) {
                                         "--shiki-light": "#032F62",
                                         "--shiki-dark": "#9ECBFF"
                                     },
-                                    children: "\"bxf bx-wink-smile bx-rotate-90\""
+                                    children: "\"bxf bx-wink-smile bx-rotate-45\""
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                                     lineNumber: 80,
@@ -7287,7 +7325,7 @@ function _createMdxContent(props) {
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                             lineNumber: 68,
-                            columnNumber: 936
+                            columnNumber: 1301
                         }, this),
                         "\n",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -7341,7 +7379,7 @@ function _createMdxContent(props) {
                                         "--shiki-light": "#032F62",
                                         "--shiki-dark": "#9ECBFF"
                                     },
-                                    children: "\"bxf bx-wink-smile bx-rotate-180\""
+                                    children: "\"bxf bx-wink-smile bx-rotate-90\""
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                                     lineNumber: 104,
@@ -7356,7 +7394,7 @@ function _createMdxContent(props) {
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                                     lineNumber: 107,
-                                    columnNumber: 64
+                                    columnNumber: 63
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
                                     style: {
@@ -7438,7 +7476,7 @@ function _createMdxContent(props) {
                                         "--shiki-light": "#032F62",
                                         "--shiki-dark": "#9ECBFF"
                                     },
-                                    children: "\"bxf bx-wink-smile bx-rotate-270\""
+                                    children: "\"bxf bx-wink-smile bx-rotate-135\""
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                                     lineNumber: 128,
@@ -7482,139 +7520,8 @@ function _createMdxContent(props) {
                             fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                             lineNumber: 116,
                             columnNumber: 55
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                    lineNumber: 68,
-                    columnNumber: 918
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                lineNumber: 68,
-                columnNumber: 809
-            }, this),
-            "\n",
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "icon-display",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                        className: "bxdocs bxrf-200-wink-smile bx-rotate-90"
-                    }, void 0, false, {
-                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                        lineNumber: 140,
-                        columnNumber: 122
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                        className: "bxdocs bxrf-200-wink-smile bx-rotate-180"
-                    }, void 0, false, {
-                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                        lineNumber: 140,
-                        columnNumber: 179
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                        className: "bxdocs bxrf-200-wink-smile bx-rotate-270"
-                    }, void 0, false, {
-                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                        lineNumber: 140,
-                        columnNumber: 237
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                lineNumber: 140,
-                columnNumber: 92
-            }, this),
-            "\n",
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.h3, {
-                id: toc[1].id,
-                children: toc[1].value
-            }, void 0, false, {
-                fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                lineNumber: 140,
-                columnNumber: 307
-            }, this),
-            "\n",
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.p, {
-                children: "You can also mirror icons horizontally or vertically using the following classes:"
-            }, void 0, false, {
-                fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                lineNumber: 140,
-                columnNumber: 375
-            }, this),
-            "\n",
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.ul, {
-                children: [
-                    "\n",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.li, {
-                        children: [
-                            "\n",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.p, {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.code, {
-                                        children: "bx-flip-horizontal"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                                        lineNumber: 140,
-                                        columnNumber: 556
-                                    }, this),
-                                    " — flips the icon left to right"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                                lineNumber: 140,
-                                columnNumber: 541
-                            }, this),
-                            "\n"
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                        lineNumber: 140,
-                        columnNumber: 519
-                    }, this),
-                    "\n",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.li, {
-                        children: [
-                            "\n",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.p, {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.code, {
-                                        children: "bx-flip-vertical"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                                        lineNumber: 140,
-                                        columnNumber: 732
-                                    }, this),
-                                    " — flips the icon top to bottom"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                                lineNumber: 140,
-                                columnNumber: 717
-                            }, this),
-                            "\n"
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                        lineNumber: 140,
-                        columnNumber: 695
-                    }, this),
-                    "\n"
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                lineNumber: 140,
-                columnNumber: 497
-            }, this),
-            "\n",
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.pre, {
-                tabIndex: "0",
-                "data-language": "html",
-                "data-word-wrap": "",
-                "data-copy": "",
-                "data-pagefind-ignore": "all",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.code, {
-                    children: [
+                        }, this),
+                        "\n",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -7626,7 +7533,7 @@ function _createMdxContent(props) {
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                                     lineNumber: 140,
-                                    columnNumber: 1037
+                                    columnNumber: 73
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
                                     style: {
@@ -7666,7 +7573,7 @@ function _createMdxContent(props) {
                                         "--shiki-light": "#032F62",
                                         "--shiki-dark": "#9ECBFF"
                                     },
-                                    children: "\"bxf bx-wink-smile bx-flip-horizontal\""
+                                    children: "\"bxf bx-wink-smile bx-rotate-180\""
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                                     lineNumber: 152,
@@ -7681,7 +7588,7 @@ function _createMdxContent(props) {
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                                     lineNumber: 155,
-                                    columnNumber: 69
+                                    columnNumber: 64
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
                                     style: {
@@ -7709,7 +7616,7 @@ function _createMdxContent(props) {
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                             lineNumber: 140,
-                            columnNumber: 1019
+                            columnNumber: 55
                         }, this),
                         "\n",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -7763,7 +7670,7 @@ function _createMdxContent(props) {
                                         "--shiki-light": "#032F62",
                                         "--shiki-dark": "#9ECBFF"
                                     },
-                                    children: "\"bxf bx-wink-smile bx-flip-vertical\""
+                                    children: "\"bxf bx-wink-smile bx-rotate-225\""
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                                     lineNumber: 176,
@@ -7778,7 +7685,7 @@ function _createMdxContent(props) {
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                                     lineNumber: 179,
-                                    columnNumber: 67
+                                    columnNumber: 64
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
                                     style: {
@@ -7807,17 +7714,564 @@ function _createMdxContent(props) {
                             fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
                             lineNumber: 164,
                             columnNumber: 55
+                        }, this),
+                        "\n",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "<"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 188,
+                                    columnNumber: 73
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "i"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 191,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#6F42C1",
+                                        "--shiki-dark": "#B392F0"
+                                    },
+                                    children: " class"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 194,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "="
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 197,
+                                    columnNumber: 35
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#032F62",
+                                        "--shiki-dark": "#9ECBFF"
+                                    },
+                                    children: "\"bxf bx-wink-smile bx-rotate-270\""
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 200,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "></"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 203,
+                                    columnNumber: 64
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "i"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 206,
+                                    columnNumber: 32
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: ">"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 209,
+                                    columnNumber: 30
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                            lineNumber: 188,
+                            columnNumber: 55
+                        }, this),
+                        "\n",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "<"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 212,
+                                    columnNumber: 73
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "i"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 215,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#6F42C1",
+                                        "--shiki-dark": "#B392F0"
+                                    },
+                                    children: " class"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 218,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "="
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 221,
+                                    columnNumber: 35
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#032F62",
+                                        "--shiki-dark": "#9ECBFF"
+                                    },
+                                    children: "\"bxf bx-wink-smile bx-rotate-315\""
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 224,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "></"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 227,
+                                    columnNumber: 64
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "i"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 230,
+                                    columnNumber: 32
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: ">"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 233,
+                                    columnNumber: 30
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                            lineNumber: 212,
+                            columnNumber: 55
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                    lineNumber: 140,
-                    columnNumber: 1001
+                    lineNumber: 68,
+                    columnNumber: 1283
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                lineNumber: 140,
-                columnNumber: 892
+                lineNumber: 68,
+                columnNumber: 1174
+            }, this),
+            "\n",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "icon-display",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
+                        className: "bxdocs bxrf-200-wink-smile bx-rotate-45"
+                    }, void 0, false, {
+                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                        lineNumber: 236,
+                        columnNumber: 122
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
+                        className: "bxdocs bxrf-200-wink-smile bx-rotate-90"
+                    }, void 0, false, {
+                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                        lineNumber: 236,
+                        columnNumber: 179
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
+                        className: "bxdocs bxrf-200-wink-smile bx-rotate-135"
+                    }, void 0, false, {
+                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                        lineNumber: 236,
+                        columnNumber: 236
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
+                        className: "bxdocs bxrf-200-wink-smile bx-rotate-180"
+                    }, void 0, false, {
+                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                        lineNumber: 236,
+                        columnNumber: 294
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
+                        className: "bxdocs bxrf-200-wink-smile bx-rotate-225"
+                    }, void 0, false, {
+                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                        lineNumber: 236,
+                        columnNumber: 352
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
+                        className: "bxdocs bxrf-200-wink-smile bx-rotate-270"
+                    }, void 0, false, {
+                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                        lineNumber: 236,
+                        columnNumber: 410
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
+                        className: "bxdocs bxrf-200-wink-smile bx-rotate-315"
+                    }, void 0, false, {
+                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                        lineNumber: 236,
+                        columnNumber: 468
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                lineNumber: 236,
+                columnNumber: 92
+            }, this),
+            "\n",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.h3, {
+                id: toc[1].id,
+                children: toc[1].value
+            }, void 0, false, {
+                fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                lineNumber: 236,
+                columnNumber: 538
+            }, this),
+            "\n",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.p, {
+                children: "You can also mirror icons horizontally or vertically using the following classes:"
+            }, void 0, false, {
+                fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                lineNumber: 236,
+                columnNumber: 606
+            }, this),
+            "\n",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.ul, {
+                children: [
+                    "\n",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.li, {
+                        children: [
+                            "\n",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.p, {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.code, {
+                                        children: "bx-flip-horizontal"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                        lineNumber: 236,
+                                        columnNumber: 787
+                                    }, this),
+                                    " — flips the icon left to right"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                lineNumber: 236,
+                                columnNumber: 772
+                            }, this),
+                            "\n"
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                        lineNumber: 236,
+                        columnNumber: 750
+                    }, this),
+                    "\n",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.li, {
+                        children: [
+                            "\n",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.p, {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.code, {
+                                        children: "bx-flip-vertical"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                        lineNumber: 236,
+                                        columnNumber: 963
+                                    }, this),
+                                    " — flips the icon top to bottom"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                lineNumber: 236,
+                                columnNumber: 948
+                            }, this),
+                            "\n"
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                        lineNumber: 236,
+                        columnNumber: 926
+                    }, this),
+                    "\n"
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                lineNumber: 236,
+                columnNumber: 728
+            }, this),
+            "\n",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.pre, {
+                tabIndex: "0",
+                "data-language": "html",
+                "data-word-wrap": "",
+                "data-copy": "",
+                "data-pagefind-ignore": "all",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.code, {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "<"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 236,
+                                    columnNumber: 1268
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "i"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 239,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#6F42C1",
+                                        "--shiki-dark": "#B392F0"
+                                    },
+                                    children: " class"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 242,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "="
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 245,
+                                    columnNumber: 35
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#032F62",
+                                        "--shiki-dark": "#9ECBFF"
+                                    },
+                                    children: "\"bxf bx-wink-smile bx-flip-horizontal\""
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 248,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "></"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 251,
+                                    columnNumber: 69
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "i"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 254,
+                                    columnNumber: 32
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: ">"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 257,
+                                    columnNumber: 30
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                            lineNumber: 236,
+                            columnNumber: 1250
+                        }, this),
+                        "\n",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "<"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 260,
+                                    columnNumber: 73
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "i"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 263,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#6F42C1",
+                                        "--shiki-dark": "#B392F0"
+                                    },
+                                    children: " class"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 266,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "="
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 269,
+                                    columnNumber: 35
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#032F62",
+                                        "--shiki-dark": "#9ECBFF"
+                                    },
+                                    children: "\"bxf bx-wink-smile bx-flip-vertical\""
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 272,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "></"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 275,
+                                    columnNumber: 67
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "i"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 278,
+                                    columnNumber: 32
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: ">"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                                    lineNumber: 281,
+                                    columnNumber: 30
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                            lineNumber: 260,
+                            columnNumber: 55
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                    lineNumber: 236,
+                    columnNumber: 1232
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
+                lineNumber: 236,
+                columnNumber: 1123
             }, this),
             "\n",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7827,20 +8281,20 @@ function _createMdxContent(props) {
                         className: "bxdocs bxrf-200-wink-smile bx-flip-horizontal"
                     }, void 0, false, {
                         fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                        lineNumber: 188,
+                        lineNumber: 284,
                         columnNumber: 122
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                         className: "bxdocs bxrf-200-wink-smile bx-flip-vertical"
                     }, void 0, false, {
                         fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                        lineNumber: 188,
+                        lineNumber: 284,
                         columnNumber: 185
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                lineNumber: 188,
+                lineNumber: 284,
                 columnNumber: 92
             }, this),
             "\n",
@@ -7849,7 +8303,7 @@ function _createMdxContent(props) {
                 children: toc[2].value
             }, void 0, false, {
                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                lineNumber: 188,
+                lineNumber: 284,
                 columnNumber: 258
             }, this),
             "\n",
@@ -7857,7 +8311,7 @@ function _createMdxContent(props) {
                 children: "You can combine rotation and flip classes together to achieve more complex transformations."
             }, void 0, false, {
                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                lineNumber: 188,
+                lineNumber: 284,
                 columnNumber: 326
             }, this),
             "\n",
@@ -7878,7 +8332,7 @@ function _createMdxContent(props) {
                                 children: "<"
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                                lineNumber: 188,
+                                lineNumber: 284,
                                 columnNumber: 603
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -7889,7 +8343,7 @@ function _createMdxContent(props) {
                                 children: "i"
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                                lineNumber: 191,
+                                lineNumber: 287,
                                 columnNumber: 30
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -7900,7 +8354,7 @@ function _createMdxContent(props) {
                                 children: " class"
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                                lineNumber: 194,
+                                lineNumber: 290,
                                 columnNumber: 30
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -7911,7 +8365,7 @@ function _createMdxContent(props) {
                                 children: "="
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                                lineNumber: 197,
+                                lineNumber: 293,
                                 columnNumber: 35
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -7922,7 +8376,7 @@ function _createMdxContent(props) {
                                 children: "\"bxf bx-wink-smile bx-rotate-90 bx-flip-horizontal\""
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                                lineNumber: 200,
+                                lineNumber: 296,
                                 columnNumber: 30
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -7933,7 +8387,7 @@ function _createMdxContent(props) {
                                 children: "></"
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                                lineNumber: 203,
+                                lineNumber: 299,
                                 columnNumber: 82
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -7944,7 +8398,7 @@ function _createMdxContent(props) {
                                 children: "i"
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                                lineNumber: 206,
+                                lineNumber: 302,
                                 columnNumber: 32
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -7955,23 +8409,23 @@ function _createMdxContent(props) {
                                 children: ">"
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                                lineNumber: 209,
+                                lineNumber: 305,
                                 columnNumber: 30
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                        lineNumber: 188,
+                        lineNumber: 284,
                         columnNumber: 585
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                    lineNumber: 188,
+                    lineNumber: 284,
                     columnNumber: 567
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                lineNumber: 188,
+                lineNumber: 284,
                 columnNumber: 458
             }, this),
             "\n",
@@ -7981,12 +8435,12 @@ function _createMdxContent(props) {
                     className: "bxdocs bxrf-200-wink-smile bx-rotate-90 bx-flip-horizontal"
                 }, void 0, false, {
                     fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                    lineNumber: 212,
+                    lineNumber: 308,
                     columnNumber: 122
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/content/font/styling/rotate.mdx.tsx",
-                lineNumber: 212,
+                lineNumber: 308,
                 columnNumber: 92
             }, this)
         ]
@@ -8014,9 +8468,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const metadata = {
     "title": "Sizing",
     "filePath": "src/content/font/styling/sizing.mdx",
-    "timestamp": 1768555361972
+    "timestamp": 1768556383375
 };
-const sourceCode = "# Sizing\n\nBoxicons scale just like text. You can control the size of an icon using the CSS `font-size` property, and by default, icons inherit the `font-size` of their parent element.\n\nIn addition to using CSS, Boxicons also provides a set of utility classes for common, consistent icon sizes.\n<br/>\n---\n\n### Using CSS Font Size\n\nYou can resize icons using plain CSS:\n\n```css\ni.bx {\n  font-size: 32px;\n}\n```\nOr inline styles:\n```html copy\n<i class=\"bxf bx-thumb-up\" style=\"font-size: 96px;\"></i>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bxrf-200-thumb-up\" style={{ fontSize: '96px' }}></i>\n\n</div>\n\n### Import the transformations CSS\nTo use the following classes, you first need to include the transformations stylesheet.\n\n```html filename=\"transformations.min.css\" copy\n<link href=\"https://cdn.boxicons.com/{{VERSION}}/fonts/transformations.min.css\" rel=\"stylesheet\">\n```\n\n### Using Size Utility Classes\nBoxicons provides predefined size classes:\n* `bx-xs`\n* `bx-sm`\n* `bx-md`\n* `bx-lg`\n\n```html copy\n<i class=\"bx bx-thumb-up bx-xs\"></i>\n<i class=\"bx bx-thumb-up bx-sm\"></i>\n<i class=\"bx bx-thumb-up bx-md\"></i>\n<i class=\"bx bx-thumb-up bx-lg\"></i>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bxrf-200-thumb-up bx-xs\"></i>\n<i className=\"bxdocs bxrf-200-thumb-up bx-sm\"></i>\n<i className=\"bxdocs bxrf-200-thumb-up bx-md\"></i>\n<i className=\"bxdocs bxrf-200-thumb-up bx-lg\"></i>\n</div>\nThese classes apply consistent, predefined sizes that work well across common UI layouts.\n\n### Fixed Width Icons\n\nSometimes you need icons to align neatly in lists or menus. For this, you can use the bx-fw (fixed width) utility class, which gives all icons the same width.\nThis is especially useful when placing icons next to text, such as in navigation lists or menus.\n\n```html copy\n<i class=\"bx-fw bxl bx-facebook-square\"></i> Facebook\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bx-facebook-circle bx-fw\"></i> <span style={{ fontSize: '25px',fontWeight: 600 }}>Facebook</span>\n\n</div>";
+const sourceCode = "# Sizing\n\nBoxicons scale just like text. You can control the size of an icon using the CSS `font-size` property, and by default, icons inherit the `font-size` of their parent element.\n\nIn addition to using CSS, Boxicons also provides a set of utility classes for common, consistent icon sizes.\n<br/>\n---\n\n### Using CSS Font Size\n\nYou can resize icons using plain CSS:\n\n```css\ni.bx {\n  font-size: 32px;\n}\n```\nOr inline styles:\n```html copy\n<i class=\"bxf bx-thumb-up\" style=\"font-size: 96px;\"></i>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bxrf-200-thumb-up\" style={{ fontSize: '96px' }}></i>\n\n</div>\n\n### Import the transformations CSS\nTo use the following classes, you first need to include the transformations stylesheet.\n\n```html filename=\"transformations.min.css\" copy\n<link href=\"https://cdn.boxicons.com/transformations.min.css\" rel=\"stylesheet\">\n```\n\n### Using Size Utility Classes\nBoxicons provides predefined size classes:\n* `bx-xs`\n* `bx-sm`\n* `bx-md`\n* `bx-lg`\n\n```html copy\n<i class=\"bx bx-thumb-up bx-xs\"></i>\n<i class=\"bx bx-thumb-up bx-sm\"></i>\n<i class=\"bx bx-thumb-up bx-md\"></i>\n<i class=\"bx bx-thumb-up bx-lg\"></i>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bxrf-200-thumb-up bx-xs\"></i>\n<i className=\"bxdocs bxrf-200-thumb-up bx-sm\"></i>\n<i className=\"bxdocs bxrf-200-thumb-up bx-md\"></i>\n<i className=\"bxdocs bxrf-200-thumb-up bx-lg\"></i>\n</div>\nThese classes apply consistent, predefined sizes that work well across common UI layouts.\n\n### Fixed Width Icons\n\nSometimes you need icons to align neatly in lists or menus. For this, you can use the bx-fw (fixed width) utility class, which gives all icons the same width.\nThis is especially useful when placing icons next to text, such as in navigation lists or menus.\n\n```html copy\n<i class=\"bx-fw bxl bx-facebook-square\"></i> Facebook\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bx-facebook-circle bx-fw\"></i> <span style={{ fontSize: '25px',fontWeight: 600 }}>Facebook</span>\n\n</div>";
 function useTOC(props) {
     return [
         {
@@ -8520,7 +8974,7 @@ function _createMdxContent(props) {
                                     "--shiki-light": "#032F62",
                                     "--shiki-dark": "#9ECBFF"
                                 },
-                                children: "\"https://cdn.boxicons.com/{{VERSION}}/fonts/transformations.min.css\""
+                                children: "\"https://cdn.boxicons.com/transformations.min.css\""
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/sizing.mdx.tsx",
                                 lineNumber: 118,
@@ -8535,7 +8989,7 @@ function _createMdxContent(props) {
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/styling/sizing.mdx.tsx",
                                 lineNumber: 121,
-                                columnNumber: 99
+                                columnNumber: 81
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
                                 style: {
@@ -9309,11 +9763,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$nextra$2f$di
 const metadata = {
     "title": "Usage as a Font",
     "filePath": "src/content/font/usage.mdx",
-    "timestamp": 1768555363827
+    "timestamp": 1768556383376
 };
 ;
 ;
-const sourceCode = "import Image from 'next/image';\nimport { Bleed,Callout } from 'nextra/components';\n\n# Usage as a Font\n\nYou can use Boxicons as an icon font to quickly embed icons into your website or application. This is the easiest way to get started and works great for static sites, dashboards, and traditional web projects.\n\nUsing the font version allows you to control icon size, color, and alignment using simple CSS — just like text.\n<br/>\n---\n## Import the CSS\n\nTo get started, include the Boxicons stylesheet in the `<head>` of your HTML file. This will load the Boxicons font into your page.\n\n\n### Free icons\n```html copy\n<!-- Basic Icons -->\n<link href=\"https://cdn.boxicons.com/{{VERSION}}/fonts/basic/boxicons.min.css\" rel=\"stylesheet\">\n<!-- Filled Icons -->\n<link href=\"https://cdn.boxicons.com/{{VERSION}}/fonts/filled/boxicons-filled.min.css\" rel=\"stylesheet\">\n<!-- Brand Icons -->\n<link href=\"https://cdn.boxicons.com/{{VERSION}}/fonts/brands/boxicons-brands.min.css\" rel=\"stylesheet\">\n```\nAll font files are hosted on a fast and reliable CDN for easy global delivery.\n\n### For Pro Users\n\nIf you are a Boxicons Pro user, you can generate a custom CDN link from the **Usage** page. There, you can select exactly which **pack, style, and weight** you want to include in your project.\n\n\n<Bleed className=\" overflow-hidden \" full>\n<Image src=\"/pro-fonts.gif\" className='figma-side rounded-4xl' alt=\"Usage page screenshot\" width={2000} height={1400} unoptimized />\n</Bleed>\n\nThe **Usage** link can be found in the icon mini-viewer and in the avatar dropdown menu.\n\n## Using Icons in HTML\n\nTo render an icon, add an `i` tag with the icon’s class name.\n\n- `bx-` prefix is used for all icons\n\n<Callout type=\"info\" title=\"Icon Naming Convention\">\n<p>When using multiple fonts please make sure the basic pack link tag is on top , followed by the rest</p>\n</Callout>\n\nExample:\n\n```html\n<i class=\"bx bx-volleyball\"></i>\n<i class=\"bxf bx-volleyball\"></i>\n<i class=\"bxl bx-twitter\"></i>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bx-volleyball\"></i>\n<i className=\"bxdocs bxf-volleyball\"></i>\n<i className=\"bxdocs bx-twitter\"></i>\n</div>\n\n### Class Names\n\n| Pack   | Style |  Class |\n| :----- | :----: | ----: |\n| basic    |  regular   |    bx |\n| basic | rounded  |   bxr |  \n| basic | sharp  |  bxs |  \n| filled    |  regular   |    bxf |\n| filled | rounded  |   bxrf |  \n| filled | sharp  |  bxsf |  \n| duotone    |  regular   |    bxd |\n| duotone | rounded  |   bxrd |  \n| duotone | sharp  |  bxsd |  \n| duotone-solid    |  regular   |    bxds |\n| duotone-solid | rounded  |   bxrds |  \n| duotone-solid | sharp  |  bxsds |  \n| duotone-mix    |  regular   |    bxdm |\n| duotone-mix | rounded  |   bxrdm |  \n| duotone-mix | sharp  |  bxsdm |  \n| brands   |  regular   |    bxl |\n\n### Starter Template\nHere’s a minimal HTML template to get you started:\n\n```html filename=\"starter.html\" copy\n<!doctype html>\n<html lang='en'>\n<head>\n<meta charset='utf-8'>\n<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>\n<!-- Boxicons CSS -->\n<link href='https://cdn.boxicons.com/{{VERSION}}/fonts/basic/boxicons.min.css' rel='stylesheet'>\n<link href='https://cdn.boxicons.com/{{VERSION}}/fonts/filled/boxicons-filled.min.css' rel='stylesheet'>\n<link href='https://cdn.boxicons.com/{{VERSION}}/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>\n \n<title>Hello, Boxicons!</title>\n</head>\n<body>\n<h1>Hello, Boxicons!</h1>\n<i class='bx bx-hot'></i>\n<i class='bxf bx-fire'></i>\n<i class='bxl bx-twitter-x'></i>\n</body>\n</html>\n```\n\nYou can also access the SVG's from our CDN at:\n\n```html copy\nhttps://cdn.boxicons.com/{{VERSION}}/svg/<PACK_NAME>/<ICON_NAME_WITH_PREFIX_BX>.svg\n\n<img src=\"https://cdn.boxicons.com/{{VERSION}}/svg/basic/bx-8-ball.svg\" alt=\"8-ball\"/>\n<img src=\"https://cdn.boxicons.com/{{VERSION}}/svg/filled/bx-8-ball.svg\" alt=\"8-ball\"/>\n<img src=\"https://cdn.boxicons.com/{{VERSION}}/svg/brands/bx-facebook.svg\" alt=\"facebook\"/>\n```";
+const sourceCode = "import Image from 'next/image';\nimport { Bleed,Callout } from 'nextra/components';\n\n# Usage as a Font\n\nYou can use Boxicons as an icon font to quickly embed icons into your website or application. This is the easiest way to get started and works great for static sites, dashboards, and traditional web projects.\n\nUsing the font version allows you to control icon size, color, and alignment using simple CSS — just like text.\n<br/>\n---\n## Import the CSS\n\nTo get started, include the Boxicons stylesheet in the `<head>` of your HTML file. This will load the Boxicons font into your page.\n\n\n### Free icons\n```html copy\n<!-- Basic Icons -->\n<link href=\"https://cdn.boxicons.com/{{VERSION}}/fonts/basic/boxicons.min.css\" rel=\"stylesheet\">\n<!-- Filled Icons -->\n<link href=\"https://cdn.boxicons.com/{{VERSION}}/fonts/filled/boxicons-filled.min.css\" rel=\"stylesheet\">\n<!-- Brand Icons -->\n<link href=\"https://cdn.boxicons.com/{{VERSION}}/fonts/brands/boxicons-brands.min.css\" rel=\"stylesheet\">\n```\nAll font files are hosted on a fast and reliable CDN for easy global delivery.\n\n### For Pro Users\n\nIf you are a Boxicons Pro user, you can generate a custom CDN link from the **Usage** page. There, you can select exactly which **pack, style, and weight** you want to include in your project.\n\n\n<Bleed className=\" overflow-hidden \" full>\n<Image src=\"/pro-fonts.gif\" className='figma-side rounded-4xl' alt=\"Usage page screenshot\" width={2000} height={1400} unoptimized />\n</Bleed>\n\nThe **Usage** link can be found in the icon mini-viewer and in the avatar dropdown menu.\n\n## Using Icons in HTML\n\nTo render an icon, add an `i` tag with the icon’s class name.\n\n- `bx-` prefix is used for all icons\n\n<Callout type=\"info\" title=\"Icon Naming Convention\">\n<p>When using multiple fonts please make sure the basic pack link tag is on top , followed by the rest</p>\n</Callout>\n\nExample:\n\n```html\n<!--  <i class=\"BX_CLASS BX-ICON_NAME\"> -->\n<i class=\"bx bx-volleyball\"></i>\n<i class=\"bxf bx-volleyball\"></i>\n<i class=\"bxl bx-twitter\"></i>\n```\n<div className=\"icon-display\">\n<i className=\"bxdocs bx-volleyball\"></i>\n<i className=\"bxdocs bxf-volleyball\"></i>\n<i className=\"bxdocs bx-twitter\"></i>\n</div>\n\n### Class Names\n\n| Pack   | Style |  Class |\n| :----- | :----: | ----: |\n| basic    |  regular   |    bx |\n| basic | rounded  |   bxr |  \n| basic | sharp  |  bxs |  \n| filled    |  regular   |    bxf |\n| filled | rounded  |   bxrf |  \n| filled | sharp  |  bxsf |  \n| duotone    |  regular   |    bxd |\n| duotone | rounded  |   bxrd |  \n| duotone | sharp  |  bxsd |  \n| duotone-solid    |  regular   |    bxds |\n| duotone-solid | rounded  |   bxrds |  \n| duotone-solid | sharp  |  bxsds |  \n| duotone-mix    |  regular   |    bxdm |\n| duotone-mix | rounded  |   bxrdm |  \n| duotone-mix | sharp  |  bxsdm |  \n| brands   |  regular   |    bxl |\n\n### Starter Template\nHere’s a minimal HTML template to get you started:\n\n```html filename=\"starter.html\" copy\n<!doctype html>\n<html lang='en'>\n<head>\n<meta charset='utf-8'>\n<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>\n<!-- Boxicons CSS -->\n<link href='https://cdn.boxicons.com/{{VERSION}}/fonts/basic/boxicons.min.css' rel='stylesheet'>\n<link href='https://cdn.boxicons.com/{{VERSION}}/fonts/filled/boxicons-filled.min.css' rel='stylesheet'>\n<link href='https://cdn.boxicons.com/{{VERSION}}/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>\n \n<title>Hello, Boxicons!</title>\n</head>\n<body>\n<h1>Hello, Boxicons!</h1>\n<i class='bx bx-hot'></i>\n<i class='bxf bx-fire'></i>\n<i class='bxl bx-twitter-x'></i>\n</body>\n</html>\n```\n\nYou can also access the SVG's from our CDN at:\n\n```html copy\nhttps://cdn.boxicons.com/{{VERSION}}/svg/<PACK_NAME>/<ICON_NAME_WITH_PREFIX_BX>.svg\n\n<img src=\"https://cdn.boxicons.com/{{VERSION}}/svg/basic/bx-8-ball.svg\" alt=\"8-ball\"/>\n<img src=\"https://cdn.boxicons.com/{{VERSION}}/svg/filled/bx-8-ball.svg\" alt=\"8-ball\"/>\n<img src=\"https://cdn.boxicons.com/{{VERSION}}/svg/brands/bx-facebook.svg\" alt=\"facebook\"/>\n```";
 function useTOC(props) {
     return [
         {
@@ -10010,97 +10464,18 @@ function _createMdxContent(props) {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.code, {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: "<"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 152,
-                                    columnNumber: 1697
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#22863A",
-                                        "--shiki-dark": "#85E89D"
-                                    },
-                                    children: "i"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 155,
-                                    columnNumber: 30
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#6F42C1",
-                                        "--shiki-dark": "#B392F0"
-                                    },
-                                    children: " class"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 158,
-                                    columnNumber: 30
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: "="
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 161,
-                                    columnNumber: 35
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#032F62",
-                                        "--shiki-dark": "#9ECBFF"
-                                    },
-                                    children: "\"bx bx-volleyball\""
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 164,
-                                    columnNumber: 30
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: "></"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 167,
-                                    columnNumber: 49
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#22863A",
-                                        "--shiki-dark": "#85E89D"
-                                    },
-                                    children: "i"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 170,
-                                    columnNumber: 32
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: ">"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 173,
-                                    columnNumber: 30
-                                }, this)
-                            ]
-                        }, void 0, true, {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                style: {
+                                    "--shiki-light": "#6A737D",
+                                    "--shiki-dark": "#6A737D"
+                                },
+                                children: "<!--  <i class=\"BX_CLASS BX-ICON_NAME\"> -->"
+                            }, void 0, false, {
+                                fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                lineNumber: 152,
+                                columnNumber: 1697
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
                             lineNumber: 152,
                             columnNumber: 1679
@@ -10116,8 +10491,8 @@ function _createMdxContent(props) {
                                     children: "<"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 176,
-                                    columnNumber: 73
+                                    lineNumber: 155,
+                                    columnNumber: 117
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
                                     style: {
@@ -10127,7 +10502,7 @@ function _createMdxContent(props) {
                                     children: "i"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 179,
+                                    lineNumber: 158,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -10138,7 +10513,7 @@ function _createMdxContent(props) {
                                     children: " class"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 182,
+                                    lineNumber: 161,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -10149,7 +10524,7 @@ function _createMdxContent(props) {
                                     children: "="
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 185,
+                                    lineNumber: 164,
                                     columnNumber: 35
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -10157,10 +10532,10 @@ function _createMdxContent(props) {
                                         "--shiki-light": "#032F62",
                                         "--shiki-dark": "#9ECBFF"
                                     },
-                                    children: "\"bxf bx-volleyball\""
+                                    children: "\"bx bx-volleyball\""
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 188,
+                                    lineNumber: 167,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -10171,8 +10546,8 @@ function _createMdxContent(props) {
                                     children: "></"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 191,
-                                    columnNumber: 50
+                                    lineNumber: 170,
+                                    columnNumber: 49
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
                                     style: {
@@ -10182,7 +10557,7 @@ function _createMdxContent(props) {
                                     children: "i"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 194,
+                                    lineNumber: 173,
                                     columnNumber: 32
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -10193,13 +10568,110 @@ function _createMdxContent(props) {
                                     children: ">"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 197,
+                                    lineNumber: 176,
                                     columnNumber: 30
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 176,
+                            lineNumber: 155,
+                            columnNumber: 99
+                        }, this),
+                        "\n",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "<"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 179,
+                                    columnNumber: 73
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "i"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 182,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#6F42C1",
+                                        "--shiki-dark": "#B392F0"
+                                    },
+                                    children: " class"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 185,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "="
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 188,
+                                    columnNumber: 35
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#032F62",
+                                        "--shiki-dark": "#9ECBFF"
+                                    },
+                                    children: "\"bxf bx-volleyball\""
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 191,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "></"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 194,
+                                    columnNumber: 50
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "i"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 197,
+                                    columnNumber: 32
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: ">"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 200,
+                                    columnNumber: 30
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/content/font/usage.mdx.tsx",
+                            lineNumber: 179,
                             columnNumber: 55
                         }, this),
                         "\n",
@@ -10213,7 +10685,7 @@ function _createMdxContent(props) {
                                     children: "<"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 200,
+                                    lineNumber: 203,
                                     columnNumber: 73
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -10224,7 +10696,7 @@ function _createMdxContent(props) {
                                     children: "i"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 203,
+                                    lineNumber: 206,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -10235,7 +10707,7 @@ function _createMdxContent(props) {
                                     children: " class"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 206,
+                                    lineNumber: 209,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -10246,7 +10718,7 @@ function _createMdxContent(props) {
                                     children: "="
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 209,
+                                    lineNumber: 212,
                                     columnNumber: 35
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -10257,7 +10729,7 @@ function _createMdxContent(props) {
                                     children: "\"bxl bx-twitter\""
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 212,
+                                    lineNumber: 215,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -10268,7 +10740,7 @@ function _createMdxContent(props) {
                                     children: "></"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 215,
+                                    lineNumber: 218,
                                     columnNumber: 47
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -10279,7 +10751,7 @@ function _createMdxContent(props) {
                                     children: "i"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 218,
+                                    lineNumber: 221,
                                     columnNumber: 32
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -10290,13 +10762,13 @@ function _createMdxContent(props) {
                                     children: ">"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 221,
+                                    lineNumber: 224,
                                     columnNumber: 30
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 200,
+                            lineNumber: 203,
                             columnNumber: 55
                         }, this)
                     ]
@@ -10318,27 +10790,27 @@ function _createMdxContent(props) {
                         className: "bxdocs bx-volleyball"
                     }, void 0, false, {
                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                        lineNumber: 224,
+                        lineNumber: 227,
                         columnNumber: 122
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                         className: "bxdocs bxf-volleyball"
                     }, void 0, false, {
                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                        lineNumber: 224,
+                        lineNumber: 227,
                         columnNumber: 160
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                         className: "bxdocs bx-twitter"
                     }, void 0, false, {
                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                        lineNumber: 224,
+                        lineNumber: 227,
                         columnNumber: 199
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                lineNumber: 224,
+                lineNumber: 227,
                 columnNumber: 92
             }, this),
             "\n",
@@ -10347,7 +10819,7 @@ function _createMdxContent(props) {
                 children: toc[4].value
             }, void 0, false, {
                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                lineNumber: 224,
+                lineNumber: 227,
                 columnNumber: 246
             }, this),
             "\n",
@@ -10363,7 +10835,7 @@ function _createMdxContent(props) {
                                     children: "Pack"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 224,
+                                    lineNumber: 227,
                                     columnNumber: 368
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.th, {
@@ -10373,7 +10845,7 @@ function _createMdxContent(props) {
                                     children: "Style"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 226,
+                                    lineNumber: 229,
                                     columnNumber: 31
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.th, {
@@ -10383,18 +10855,18 @@ function _createMdxContent(props) {
                                     children: "Class"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 228,
+                                    lineNumber: 231,
                                     columnNumber: 32
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 224,
+                            lineNumber: 227,
                             columnNumber: 352
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                        lineNumber: 224,
+                        lineNumber: 227,
                         columnNumber: 333
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.tbody, {
@@ -10408,7 +10880,7 @@ function _createMdxContent(props) {
                                         children: "basic"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 230,
+                                        lineNumber: 233,
                                         columnNumber: 104
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10418,7 +10890,7 @@ function _createMdxContent(props) {
                                         children: "regular"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 232,
+                                        lineNumber: 235,
                                         columnNumber: 32
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10428,13 +10900,13 @@ function _createMdxContent(props) {
                                         children: "bx"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 234,
+                                        lineNumber: 237,
                                         columnNumber: 34
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                lineNumber: 230,
+                                lineNumber: 233,
                                 columnNumber: 88
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.tr, {
@@ -10446,7 +10918,7 @@ function _createMdxContent(props) {
                                         children: "basic"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 236,
+                                        lineNumber: 239,
                                         columnNumber: 62
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10456,7 +10928,7 @@ function _createMdxContent(props) {
                                         children: "rounded"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 238,
+                                        lineNumber: 241,
                                         columnNumber: 32
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10466,13 +10938,13 @@ function _createMdxContent(props) {
                                         children: "bxr"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 240,
+                                        lineNumber: 243,
                                         columnNumber: 34
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                lineNumber: 236,
+                                lineNumber: 239,
                                 columnNumber: 46
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.tr, {
@@ -10484,7 +10956,7 @@ function _createMdxContent(props) {
                                         children: "basic"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 242,
+                                        lineNumber: 245,
                                         columnNumber: 63
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10494,7 +10966,7 @@ function _createMdxContent(props) {
                                         children: "sharp"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 244,
+                                        lineNumber: 247,
                                         columnNumber: 32
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10504,13 +10976,13 @@ function _createMdxContent(props) {
                                         children: "bxs"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 246,
+                                        lineNumber: 249,
                                         columnNumber: 32
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                lineNumber: 242,
+                                lineNumber: 245,
                                 columnNumber: 47
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.tr, {
@@ -10522,7 +10994,7 @@ function _createMdxContent(props) {
                                         children: "filled"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 248,
+                                        lineNumber: 251,
                                         columnNumber: 63
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10532,7 +11004,7 @@ function _createMdxContent(props) {
                                         children: "regular"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 250,
+                                        lineNumber: 253,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10542,13 +11014,13 @@ function _createMdxContent(props) {
                                         children: "bxf"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 252,
+                                        lineNumber: 255,
                                         columnNumber: 34
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                lineNumber: 248,
+                                lineNumber: 251,
                                 columnNumber: 47
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.tr, {
@@ -10560,7 +11032,7 @@ function _createMdxContent(props) {
                                         children: "filled"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 254,
+                                        lineNumber: 257,
                                         columnNumber: 63
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10570,7 +11042,7 @@ function _createMdxContent(props) {
                                         children: "rounded"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 256,
+                                        lineNumber: 259,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10580,13 +11052,13 @@ function _createMdxContent(props) {
                                         children: "bxrf"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 258,
+                                        lineNumber: 261,
                                         columnNumber: 34
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                lineNumber: 254,
+                                lineNumber: 257,
                                 columnNumber: 47
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.tr, {
@@ -10598,7 +11070,7 @@ function _createMdxContent(props) {
                                         children: "filled"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 260,
+                                        lineNumber: 263,
                                         columnNumber: 64
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10608,7 +11080,7 @@ function _createMdxContent(props) {
                                         children: "sharp"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 262,
+                                        lineNumber: 265,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10618,13 +11090,13 @@ function _createMdxContent(props) {
                                         children: "bxsf"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 264,
+                                        lineNumber: 267,
                                         columnNumber: 32
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                lineNumber: 260,
+                                lineNumber: 263,
                                 columnNumber: 48
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.tr, {
@@ -10636,7 +11108,7 @@ function _createMdxContent(props) {
                                         children: "duotone"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 266,
+                                        lineNumber: 269,
                                         columnNumber: 64
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10646,7 +11118,7 @@ function _createMdxContent(props) {
                                         children: "regular"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 268,
+                                        lineNumber: 271,
                                         columnNumber: 34
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10656,13 +11128,13 @@ function _createMdxContent(props) {
                                         children: "bxd"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 270,
+                                        lineNumber: 273,
                                         columnNumber: 34
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                lineNumber: 266,
+                                lineNumber: 269,
                                 columnNumber: 48
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.tr, {
@@ -10674,7 +11146,7 @@ function _createMdxContent(props) {
                                         children: "duotone"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 272,
+                                        lineNumber: 275,
                                         columnNumber: 63
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10684,7 +11156,7 @@ function _createMdxContent(props) {
                                         children: "rounded"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 274,
+                                        lineNumber: 277,
                                         columnNumber: 34
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10694,13 +11166,13 @@ function _createMdxContent(props) {
                                         children: "bxrd"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 276,
+                                        lineNumber: 279,
                                         columnNumber: 34
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                lineNumber: 272,
+                                lineNumber: 275,
                                 columnNumber: 47
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.tr, {
@@ -10712,7 +11184,7 @@ function _createMdxContent(props) {
                                         children: "duotone"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 278,
+                                        lineNumber: 281,
                                         columnNumber: 64
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10722,7 +11194,7 @@ function _createMdxContent(props) {
                                         children: "sharp"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 280,
+                                        lineNumber: 283,
                                         columnNumber: 34
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10732,13 +11204,13 @@ function _createMdxContent(props) {
                                         children: "bxsd"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 282,
+                                        lineNumber: 285,
                                         columnNumber: 32
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                lineNumber: 278,
+                                lineNumber: 281,
                                 columnNumber: 48
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.tr, {
@@ -10750,7 +11222,7 @@ function _createMdxContent(props) {
                                         children: "duotone-solid"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 284,
+                                        lineNumber: 287,
                                         columnNumber: 64
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10760,7 +11232,7 @@ function _createMdxContent(props) {
                                         children: "regular"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 286,
+                                        lineNumber: 289,
                                         columnNumber: 40
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10770,13 +11242,13 @@ function _createMdxContent(props) {
                                         children: "bxds"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 288,
+                                        lineNumber: 291,
                                         columnNumber: 34
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                lineNumber: 284,
+                                lineNumber: 287,
                                 columnNumber: 48
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.tr, {
@@ -10788,7 +11260,7 @@ function _createMdxContent(props) {
                                         children: "duotone-solid"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 290,
+                                        lineNumber: 293,
                                         columnNumber: 64
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10798,7 +11270,7 @@ function _createMdxContent(props) {
                                         children: "rounded"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 292,
+                                        lineNumber: 295,
                                         columnNumber: 40
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10808,13 +11280,13 @@ function _createMdxContent(props) {
                                         children: "bxrds"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 294,
+                                        lineNumber: 297,
                                         columnNumber: 34
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                lineNumber: 290,
+                                lineNumber: 293,
                                 columnNumber: 48
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.tr, {
@@ -10826,7 +11298,7 @@ function _createMdxContent(props) {
                                         children: "duotone-solid"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 296,
+                                        lineNumber: 299,
                                         columnNumber: 65
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10836,7 +11308,7 @@ function _createMdxContent(props) {
                                         children: "sharp"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 298,
+                                        lineNumber: 301,
                                         columnNumber: 40
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10846,13 +11318,13 @@ function _createMdxContent(props) {
                                         children: "bxsds"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 300,
+                                        lineNumber: 303,
                                         columnNumber: 32
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                lineNumber: 296,
+                                lineNumber: 299,
                                 columnNumber: 49
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.tr, {
@@ -10864,7 +11336,7 @@ function _createMdxContent(props) {
                                         children: "duotone-mix"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 302,
+                                        lineNumber: 305,
                                         columnNumber: 65
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10874,7 +11346,7 @@ function _createMdxContent(props) {
                                         children: "regular"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 304,
+                                        lineNumber: 307,
                                         columnNumber: 38
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10884,13 +11356,13 @@ function _createMdxContent(props) {
                                         children: "bxdm"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 306,
+                                        lineNumber: 309,
                                         columnNumber: 34
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                lineNumber: 302,
+                                lineNumber: 305,
                                 columnNumber: 49
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.tr, {
@@ -10902,7 +11374,7 @@ function _createMdxContent(props) {
                                         children: "duotone-mix"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 308,
+                                        lineNumber: 311,
                                         columnNumber: 64
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10912,7 +11384,7 @@ function _createMdxContent(props) {
                                         children: "rounded"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 310,
+                                        lineNumber: 313,
                                         columnNumber: 38
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10922,13 +11394,13 @@ function _createMdxContent(props) {
                                         children: "bxrdm"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 312,
+                                        lineNumber: 315,
                                         columnNumber: 34
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                lineNumber: 308,
+                                lineNumber: 311,
                                 columnNumber: 48
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.tr, {
@@ -10940,7 +11412,7 @@ function _createMdxContent(props) {
                                         children: "duotone-mix"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 314,
+                                        lineNumber: 317,
                                         columnNumber: 65
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10950,7 +11422,7 @@ function _createMdxContent(props) {
                                         children: "sharp"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 316,
+                                        lineNumber: 319,
                                         columnNumber: 38
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10960,13 +11432,13 @@ function _createMdxContent(props) {
                                         children: "bxsdm"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 318,
+                                        lineNumber: 321,
                                         columnNumber: 32
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                lineNumber: 314,
+                                lineNumber: 317,
                                 columnNumber: 49
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.tr, {
@@ -10978,7 +11450,7 @@ function _createMdxContent(props) {
                                         children: "brands"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 320,
+                                        lineNumber: 323,
                                         columnNumber: 65
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10988,7 +11460,7 @@ function _createMdxContent(props) {
                                         children: "regular"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 322,
+                                        lineNumber: 325,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.td, {
@@ -10998,25 +11470,25 @@ function _createMdxContent(props) {
                                         children: "bxl"
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                        lineNumber: 324,
+                                        lineNumber: 327,
                                         columnNumber: 34
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                lineNumber: 320,
+                                lineNumber: 323,
                                 columnNumber: 49
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/content/font/usage.mdx.tsx",
-                        lineNumber: 230,
+                        lineNumber: 233,
                         columnNumber: 69
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                lineNumber: 224,
+                lineNumber: 227,
                 columnNumber: 314
             }, this),
             "\n",
@@ -11025,7 +11497,7 @@ function _createMdxContent(props) {
                 children: toc[5].value
             }, void 0, false, {
                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                lineNumber: 326,
+                lineNumber: 329,
                 columnNumber: 93
             }, this),
             "\n",
@@ -11033,7 +11505,7 @@ function _createMdxContent(props) {
                 children: "Here’s a minimal HTML template to get you started:"
             }, void 0, false, {
                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                lineNumber: 326,
+                lineNumber: 329,
                 columnNumber: 161
             }, this),
             "\n",
@@ -11056,7 +11528,7 @@ function _createMdxContent(props) {
                                     children: "<!"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 326,
+                                    lineNumber: 329,
                                     columnNumber: 426
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11067,7 +11539,7 @@ function _createMdxContent(props) {
                                     children: "doctype"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 329,
+                                    lineNumber: 332,
                                     columnNumber: 31
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11078,7 +11550,7 @@ function _createMdxContent(props) {
                                     children: " html"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 332,
+                                    lineNumber: 335,
                                     columnNumber: 36
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11089,13 +11561,13 @@ function _createMdxContent(props) {
                                     children: ">"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 335,
+                                    lineNumber: 338,
                                     columnNumber: 34
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 326,
+                            lineNumber: 329,
                             columnNumber: 408
                         }, this),
                         "\n",
@@ -11109,7 +11581,7 @@ function _createMdxContent(props) {
                                     children: "<"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 338,
+                                    lineNumber: 341,
                                     columnNumber: 73
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11120,7 +11592,7 @@ function _createMdxContent(props) {
                                     children: "html"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 341,
+                                    lineNumber: 344,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11131,7 +11603,7 @@ function _createMdxContent(props) {
                                     children: " lang"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 344,
+                                    lineNumber: 347,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11142,7 +11614,7 @@ function _createMdxContent(props) {
                                     children: "="
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 347,
+                                    lineNumber: 350,
                                     columnNumber: 34
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11153,7 +11625,7 @@ function _createMdxContent(props) {
                                     children: "'en'"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 350,
+                                    lineNumber: 353,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11164,13 +11636,13 @@ function _createMdxContent(props) {
                                     children: ">"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 353,
+                                    lineNumber: 356,
                                     columnNumber: 33
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 338,
+                            lineNumber: 341,
                             columnNumber: 55
                         }, this),
                         "\n",
@@ -11184,7 +11656,7 @@ function _createMdxContent(props) {
                                     children: "<"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 356,
+                                    lineNumber: 359,
                                     columnNumber: 73
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11195,7 +11667,7 @@ function _createMdxContent(props) {
                                     children: "head"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 359,
+                                    lineNumber: 362,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11206,13 +11678,13 @@ function _createMdxContent(props) {
                                     children: ">"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 362,
+                                    lineNumber: 365,
                                     columnNumber: 33
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 356,
+                            lineNumber: 359,
                             columnNumber: 55
                         }, this),
                         "\n",
@@ -11226,7 +11698,7 @@ function _createMdxContent(props) {
                                     children: "<"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 365,
+                                    lineNumber: 368,
                                     columnNumber: 73
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11237,7 +11709,7 @@ function _createMdxContent(props) {
                                     children: "meta"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 368,
+                                    lineNumber: 371,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11248,7 +11720,7 @@ function _createMdxContent(props) {
                                     children: " charset"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 371,
+                                    lineNumber: 374,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11259,7 +11731,7 @@ function _createMdxContent(props) {
                                     children: "="
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 374,
+                                    lineNumber: 377,
                                     columnNumber: 37
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11270,7 +11742,7 @@ function _createMdxContent(props) {
                                     children: "'utf-8'"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 377,
+                                    lineNumber: 380,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11281,13 +11753,13 @@ function _createMdxContent(props) {
                                     children: ">"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 380,
+                                    lineNumber: 383,
                                     columnNumber: 36
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 365,
+                            lineNumber: 368,
                             columnNumber: 55
                         }, this),
                         "\n",
@@ -11301,7 +11773,7 @@ function _createMdxContent(props) {
                                     children: "<"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 383,
+                                    lineNumber: 386,
                                     columnNumber: 73
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11312,7 +11784,7 @@ function _createMdxContent(props) {
                                     children: "meta"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 386,
+                                    lineNumber: 389,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11323,7 +11795,7 @@ function _createMdxContent(props) {
                                     children: " name"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 389,
+                                    lineNumber: 392,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11334,7 +11806,7 @@ function _createMdxContent(props) {
                                     children: "="
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 392,
+                                    lineNumber: 395,
                                     columnNumber: 34
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11345,7 +11817,7 @@ function _createMdxContent(props) {
                                     children: "'viewport'"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 395,
+                                    lineNumber: 398,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11356,7 +11828,7 @@ function _createMdxContent(props) {
                                     children: " content"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 398,
+                                    lineNumber: 401,
                                     columnNumber: 39
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11367,7 +11839,7 @@ function _createMdxContent(props) {
                                     children: "="
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 401,
+                                    lineNumber: 404,
                                     columnNumber: 37
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11378,7 +11850,7 @@ function _createMdxContent(props) {
                                     children: "'width=device-width, initial-scale=1, shrink-to-fit=no'"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 404,
+                                    lineNumber: 407,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11389,13 +11861,13 @@ function _createMdxContent(props) {
                                     children: ">"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 407,
+                                    lineNumber: 410,
                                     columnNumber: 84
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 383,
+                            lineNumber: 386,
                             columnNumber: 55
                         }, this),
                         "\n",
@@ -11408,12 +11880,12 @@ function _createMdxContent(props) {
                                 children: "<!-- Boxicons CSS -->"
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                lineNumber: 410,
+                                lineNumber: 413,
                                 columnNumber: 73
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 410,
+                            lineNumber: 413,
                             columnNumber: 55
                         }, this),
                         "\n",
@@ -11427,7 +11899,7 @@ function _createMdxContent(props) {
                                     children: "<"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 413,
+                                    lineNumber: 416,
                                     columnNumber: 93
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11438,7 +11910,7 @@ function _createMdxContent(props) {
                                     children: "link"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 416,
+                                    lineNumber: 419,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11449,7 +11921,7 @@ function _createMdxContent(props) {
                                     children: " href"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 419,
+                                    lineNumber: 422,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11460,7 +11932,7 @@ function _createMdxContent(props) {
                                     children: "="
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 422,
+                                    lineNumber: 425,
                                     columnNumber: 34
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11471,7 +11943,7 @@ function _createMdxContent(props) {
                                     children: "'https://cdn.boxicons.com/{{VERSION}}/fonts/basic/boxicons.min.css'"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 425,
+                                    lineNumber: 428,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11482,7 +11954,7 @@ function _createMdxContent(props) {
                                     children: " rel"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 428,
+                                    lineNumber: 431,
                                     columnNumber: 96
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11493,7 +11965,7 @@ function _createMdxContent(props) {
                                     children: "="
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 431,
+                                    lineNumber: 434,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11504,7 +11976,7 @@ function _createMdxContent(props) {
                                     children: "'stylesheet'"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 434,
+                                    lineNumber: 437,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11515,13 +11987,13 @@ function _createMdxContent(props) {
                                     children: ">"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 437,
+                                    lineNumber: 440,
                                     columnNumber: 41
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 413,
+                            lineNumber: 416,
                             columnNumber: 75
                         }, this),
                         "\n",
@@ -11535,7 +12007,7 @@ function _createMdxContent(props) {
                                     children: "<"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 440,
+                                    lineNumber: 443,
                                     columnNumber: 73
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11546,7 +12018,7 @@ function _createMdxContent(props) {
                                     children: "link"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 443,
+                                    lineNumber: 446,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11557,7 +12029,7 @@ function _createMdxContent(props) {
                                     children: " href"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 446,
+                                    lineNumber: 449,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11568,7 +12040,7 @@ function _createMdxContent(props) {
                                     children: "="
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 449,
+                                    lineNumber: 452,
                                     columnNumber: 34
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11579,7 +12051,7 @@ function _createMdxContent(props) {
                                     children: "'https://cdn.boxicons.com/{{VERSION}}/fonts/filled/boxicons-filled.min.css'"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 452,
+                                    lineNumber: 455,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11590,7 +12062,7 @@ function _createMdxContent(props) {
                                     children: " rel"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 455,
+                                    lineNumber: 458,
                                     columnNumber: 104
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11601,7 +12073,7 @@ function _createMdxContent(props) {
                                     children: "="
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 458,
+                                    lineNumber: 461,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11612,7 +12084,7 @@ function _createMdxContent(props) {
                                     children: "'stylesheet'"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 461,
+                                    lineNumber: 464,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11623,13 +12095,13 @@ function _createMdxContent(props) {
                                     children: ">"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 464,
+                                    lineNumber: 467,
                                     columnNumber: 41
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 440,
+                            lineNumber: 443,
                             columnNumber: 55
                         }, this),
                         "\n",
@@ -11643,7 +12115,7 @@ function _createMdxContent(props) {
                                     children: "<"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 467,
+                                    lineNumber: 470,
                                     columnNumber: 73
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11654,7 +12126,7 @@ function _createMdxContent(props) {
                                     children: "link"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 470,
+                                    lineNumber: 473,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11665,7 +12137,7 @@ function _createMdxContent(props) {
                                     children: " href"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 473,
+                                    lineNumber: 476,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11676,7 +12148,7 @@ function _createMdxContent(props) {
                                     children: "="
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 476,
+                                    lineNumber: 479,
                                     columnNumber: 34
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11687,7 +12159,7 @@ function _createMdxContent(props) {
                                     children: "'https://cdn.boxicons.com/{{VERSION}}/fonts/brands/boxicons-brands.min.css'"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 479,
+                                    lineNumber: 482,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11698,7 +12170,7 @@ function _createMdxContent(props) {
                                     children: " rel"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 482,
+                                    lineNumber: 485,
                                     columnNumber: 104
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11709,7 +12181,7 @@ function _createMdxContent(props) {
                                     children: "="
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 485,
+                                    lineNumber: 488,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11720,7 +12192,7 @@ function _createMdxContent(props) {
                                     children: "'stylesheet'"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 488,
+                                    lineNumber: 491,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11731,13 +12203,13 @@ function _createMdxContent(props) {
                                     children: ">"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 491,
+                                    lineNumber: 494,
                                     columnNumber: 41
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 467,
+                            lineNumber: 470,
                             columnNumber: 55
                         }, this),
                         "\n",
@@ -11750,74 +12222,10 @@ function _createMdxContent(props) {
                                 children: " "
                             }, void 0, false, {
                                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                lineNumber: 494,
+                                lineNumber: 497,
                                 columnNumber: 73
                             }, this)
                         }, void 0, false, {
-                            fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 494,
-                            columnNumber: 55
-                        }, this),
-                        "\n",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: "<"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 497,
-                                    columnNumber: 73
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#22863A",
-                                        "--shiki-dark": "#85E89D"
-                                    },
-                                    children: "title"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 500,
-                                    columnNumber: 30
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: ">Hello, Boxicons!</"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 503,
-                                    columnNumber: 34
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#22863A",
-                                        "--shiki-dark": "#85E89D"
-                                    },
-                                    children: "title"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 506,
-                                    columnNumber: 48
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: ">"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 509,
-                                    columnNumber: 34
-                                }, this)
-                            ]
-                        }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
                             lineNumber: 497,
                             columnNumber: 55
@@ -11830,52 +12238,10 @@ function _createMdxContent(props) {
                                         "--shiki-light": "#24292E",
                                         "--shiki-dark": "#E1E4E8"
                                     },
-                                    children: "</"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 512,
-                                    columnNumber: 73
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#22863A",
-                                        "--shiki-dark": "#85E89D"
-                                    },
-                                    children: "head"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 515,
-                                    columnNumber: 31
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: ">"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 518,
-                                    columnNumber: 33
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 512,
-                            columnNumber: 55
-                        }, this),
-                        "\n",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
                                     children: "<"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 521,
+                                    lineNumber: 500,
                                     columnNumber: 73
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11883,52 +12249,10 @@ function _createMdxContent(props) {
                                         "--shiki-light": "#22863A",
                                         "--shiki-dark": "#85E89D"
                                     },
-                                    children: "body"
+                                    children: "title"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 524,
-                                    columnNumber: 30
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: ">"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 527,
-                                    columnNumber: 33
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 521,
-                            columnNumber: 55
-                        }, this),
-                        "\n",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: "<"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 530,
-                                    columnNumber: 73
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#22863A",
-                                        "--shiki-dark": "#85E89D"
-                                    },
-                                    children: "h1"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 533,
+                                    lineNumber: 503,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11939,18 +12263,18 @@ function _createMdxContent(props) {
                                     children: ">Hello, Boxicons!</"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 536,
-                                    columnNumber: 31
+                                    lineNumber: 506,
+                                    columnNumber: 34
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
                                     style: {
                                         "--shiki-light": "#22863A",
                                         "--shiki-dark": "#85E89D"
                                     },
-                                    children: "h1"
+                                    children: "title"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 539,
+                                    lineNumber: 509,
                                     columnNumber: 48
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -11961,304 +12285,13 @@ function _createMdxContent(props) {
                                     children: ">"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 542,
-                                    columnNumber: 31
+                                    lineNumber: 512,
+                                    columnNumber: 34
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 530,
-                            columnNumber: 55
-                        }, this),
-                        "\n",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: "<"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 545,
-                                    columnNumber: 73
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#22863A",
-                                        "--shiki-dark": "#85E89D"
-                                    },
-                                    children: "i"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 548,
-                                    columnNumber: 30
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#6F42C1",
-                                        "--shiki-dark": "#B392F0"
-                                    },
-                                    children: " class"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 551,
-                                    columnNumber: 30
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: "="
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 554,
-                                    columnNumber: 35
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#032F62",
-                                        "--shiki-dark": "#9ECBFF"
-                                    },
-                                    children: "'bx bx-hot'"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 557,
-                                    columnNumber: 30
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: "></"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 560,
-                                    columnNumber: 40
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#22863A",
-                                        "--shiki-dark": "#85E89D"
-                                    },
-                                    children: "i"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 563,
-                                    columnNumber: 32
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: ">"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 566,
-                                    columnNumber: 30
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 545,
-                            columnNumber: 55
-                        }, this),
-                        "\n",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: "<"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 569,
-                                    columnNumber: 73
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#22863A",
-                                        "--shiki-dark": "#85E89D"
-                                    },
-                                    children: "i"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 572,
-                                    columnNumber: 30
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#6F42C1",
-                                        "--shiki-dark": "#B392F0"
-                                    },
-                                    children: " class"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 575,
-                                    columnNumber: 30
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: "="
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 578,
-                                    columnNumber: 35
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#032F62",
-                                        "--shiki-dark": "#9ECBFF"
-                                    },
-                                    children: "'bxf bx-fire'"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 581,
-                                    columnNumber: 30
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: "></"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 584,
-                                    columnNumber: 42
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#22863A",
-                                        "--shiki-dark": "#85E89D"
-                                    },
-                                    children: "i"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 587,
-                                    columnNumber: 32
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: ">"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 590,
-                                    columnNumber: 30
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 569,
-                            columnNumber: 55
-                        }, this),
-                        "\n",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: "<"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 593,
-                                    columnNumber: 73
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#22863A",
-                                        "--shiki-dark": "#85E89D"
-                                    },
-                                    children: "i"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 596,
-                                    columnNumber: 30
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#6F42C1",
-                                        "--shiki-dark": "#B392F0"
-                                    },
-                                    children: " class"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 599,
-                                    columnNumber: 30
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: "="
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 602,
-                                    columnNumber: 35
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#032F62",
-                                        "--shiki-dark": "#9ECBFF"
-                                    },
-                                    children: "'bxl bx-twitter-x'"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 605,
-                                    columnNumber: 30
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: "></"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 608,
-                                    columnNumber: 47
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#22863A",
-                                        "--shiki-dark": "#85E89D"
-                                    },
-                                    children: "i"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 611,
-                                    columnNumber: 32
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
-                                    style: {
-                                        "--shiki-light": "#24292E",
-                                        "--shiki-dark": "#E1E4E8"
-                                    },
-                                    children: ">"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 614,
-                                    columnNumber: 30
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 593,
+                            lineNumber: 500,
                             columnNumber: 55
                         }, this),
                         "\n",
@@ -12272,7 +12305,49 @@ function _createMdxContent(props) {
                                     children: "</"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 617,
+                                    lineNumber: 515,
+                                    columnNumber: 73
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "head"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 518,
+                                    columnNumber: 31
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: ">"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 521,
+                                    columnNumber: 33
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/content/font/usage.mdx.tsx",
+                            lineNumber: 515,
+                            columnNumber: 55
+                        }, this),
+                        "\n",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "<"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 524,
                                     columnNumber: 73
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12283,8 +12358,8 @@ function _createMdxContent(props) {
                                     children: "body"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 620,
-                                    columnNumber: 31
+                                    lineNumber: 527,
+                                    columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
                                     style: {
@@ -12294,13 +12369,368 @@ function _createMdxContent(props) {
                                     children: ">"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 623,
+                                    lineNumber: 530,
                                     columnNumber: 33
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 617,
+                            lineNumber: 524,
+                            columnNumber: 55
+                        }, this),
+                        "\n",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "<"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 533,
+                                    columnNumber: 73
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "h1"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 536,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: ">Hello, Boxicons!</"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 539,
+                                    columnNumber: 31
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "h1"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 542,
+                                    columnNumber: 48
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: ">"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 545,
+                                    columnNumber: 31
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/content/font/usage.mdx.tsx",
+                            lineNumber: 533,
+                            columnNumber: 55
+                        }, this),
+                        "\n",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "<"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 548,
+                                    columnNumber: 73
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "i"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 551,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#6F42C1",
+                                        "--shiki-dark": "#B392F0"
+                                    },
+                                    children: " class"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 554,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "="
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 557,
+                                    columnNumber: 35
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#032F62",
+                                        "--shiki-dark": "#9ECBFF"
+                                    },
+                                    children: "'bx bx-hot'"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 560,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "></"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 563,
+                                    columnNumber: 40
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "i"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 566,
+                                    columnNumber: 32
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: ">"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 569,
+                                    columnNumber: 30
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/content/font/usage.mdx.tsx",
+                            lineNumber: 548,
+                            columnNumber: 55
+                        }, this),
+                        "\n",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "<"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 572,
+                                    columnNumber: 73
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "i"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 575,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#6F42C1",
+                                        "--shiki-dark": "#B392F0"
+                                    },
+                                    children: " class"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 578,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "="
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 581,
+                                    columnNumber: 35
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#032F62",
+                                        "--shiki-dark": "#9ECBFF"
+                                    },
+                                    children: "'bxf bx-fire'"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 584,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "></"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 587,
+                                    columnNumber: 42
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "i"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 590,
+                                    columnNumber: 32
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: ">"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 593,
+                                    columnNumber: 30
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/content/font/usage.mdx.tsx",
+                            lineNumber: 572,
+                            columnNumber: 55
+                        }, this),
+                        "\n",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "<"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 596,
+                                    columnNumber: 73
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "i"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 599,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#6F42C1",
+                                        "--shiki-dark": "#B392F0"
+                                    },
+                                    children: " class"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 602,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "="
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 605,
+                                    columnNumber: 35
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#032F62",
+                                        "--shiki-dark": "#9ECBFF"
+                                    },
+                                    children: "'bxl bx-twitter-x'"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 608,
+                                    columnNumber: 30
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "></"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 611,
+                                    columnNumber: 47
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "i"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 614,
+                                    columnNumber: 32
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: ">"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 617,
+                                    columnNumber: 30
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/content/font/usage.mdx.tsx",
+                            lineNumber: 596,
                             columnNumber: 55
                         }, this),
                         "\n",
@@ -12314,7 +12744,7 @@ function _createMdxContent(props) {
                                     children: "</"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 626,
+                                    lineNumber: 620,
                                     columnNumber: 73
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12322,10 +12752,10 @@ function _createMdxContent(props) {
                                         "--shiki-light": "#22863A",
                                         "--shiki-dark": "#85E89D"
                                     },
-                                    children: "html"
+                                    children: "body"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 629,
+                                    lineNumber: 623,
                                     columnNumber: 31
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12336,24 +12766,66 @@ function _createMdxContent(props) {
                                     children: ">"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 632,
+                                    lineNumber: 626,
                                     columnNumber: 33
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 626,
+                            lineNumber: 620,
+                            columnNumber: 55
+                        }, this),
+                        "\n",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: "</"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 629,
+                                    columnNumber: 73
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#22863A",
+                                        "--shiki-dark": "#85E89D"
+                                    },
+                                    children: "html"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 632,
+                                    columnNumber: 31
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
+                                    style: {
+                                        "--shiki-light": "#24292E",
+                                        "--shiki-dark": "#E1E4E8"
+                                    },
+                                    children: ">"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/content/font/usage.mdx.tsx",
+                                    lineNumber: 635,
+                                    columnNumber: 33
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/content/font/usage.mdx.tsx",
+                            lineNumber: 629,
                             columnNumber: 55
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                    lineNumber: 326,
+                    lineNumber: 329,
                     columnNumber: 390
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                lineNumber: 326,
+                lineNumber: 329,
                 columnNumber: 252
             }, this),
             "\n",
@@ -12361,7 +12833,7 @@ function _createMdxContent(props) {
                 children: "You can also access the SVG’s from our CDN at:"
             }, void 0, false, {
                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                lineNumber: 635,
+                lineNumber: 638,
                 columnNumber: 92
             }, this),
             "\n",
@@ -12383,7 +12855,7 @@ function _createMdxContent(props) {
                                     children: "https://cdn.boxicons.com/{{VERSION}}/svg/<"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 635,
+                                    lineNumber: 638,
                                     columnNumber: 324
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12396,7 +12868,7 @@ function _createMdxContent(props) {
                                     children: "PACK_NAME"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 638,
+                                    lineNumber: 641,
                                     columnNumber: 71
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12407,7 +12879,7 @@ function _createMdxContent(props) {
                                     children: ">/<"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 643,
+                                    lineNumber: 646,
                                     columnNumber: 38
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12420,7 +12892,7 @@ function _createMdxContent(props) {
                                     children: "ICON_NAME_WITH_PREFIX_BX"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 646,
+                                    lineNumber: 649,
                                     columnNumber: 32
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12431,13 +12903,13 @@ function _createMdxContent(props) {
                                     children: ">.svg"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 651,
+                                    lineNumber: 654,
                                     columnNumber: 53
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 635,
+                            lineNumber: 638,
                             columnNumber: 306
                         }, this),
                         "\n",
@@ -12445,7 +12917,7 @@ function _createMdxContent(props) {
                             children: " "
                         }, void 0, false, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 654,
+                            lineNumber: 657,
                             columnNumber: 59
                         }, this),
                         "\n",
@@ -12459,7 +12931,7 @@ function _createMdxContent(props) {
                                     children: "<"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 654,
+                                    lineNumber: 657,
                                     columnNumber: 125
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12470,7 +12942,7 @@ function _createMdxContent(props) {
                                     children: "img"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 657,
+                                    lineNumber: 660,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12481,7 +12953,7 @@ function _createMdxContent(props) {
                                     children: " src"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 660,
+                                    lineNumber: 663,
                                     columnNumber: 32
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12492,7 +12964,7 @@ function _createMdxContent(props) {
                                     children: "="
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 663,
+                                    lineNumber: 666,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12503,7 +12975,7 @@ function _createMdxContent(props) {
                                     children: "\"https://cdn.boxicons.com/{{VERSION}}/svg/basic/bx-8-ball.svg\""
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 666,
+                                    lineNumber: 669,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12514,7 +12986,7 @@ function _createMdxContent(props) {
                                     children: " alt"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 669,
+                                    lineNumber: 672,
                                     columnNumber: 93
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12525,7 +12997,7 @@ function _createMdxContent(props) {
                                     children: "="
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 672,
+                                    lineNumber: 675,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12536,7 +13008,7 @@ function _createMdxContent(props) {
                                     children: "\"8-ball\""
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 675,
+                                    lineNumber: 678,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12547,13 +13019,13 @@ function _createMdxContent(props) {
                                     children: "/>"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 678,
+                                    lineNumber: 681,
                                     columnNumber: 39
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 654,
+                            lineNumber: 657,
                             columnNumber: 107
                         }, this),
                         "\n",
@@ -12567,7 +13039,7 @@ function _createMdxContent(props) {
                                     children: "<"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 681,
+                                    lineNumber: 684,
                                     columnNumber: 74
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12578,7 +13050,7 @@ function _createMdxContent(props) {
                                     children: "img"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 684,
+                                    lineNumber: 687,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12589,7 +13061,7 @@ function _createMdxContent(props) {
                                     children: " src"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 687,
+                                    lineNumber: 690,
                                     columnNumber: 32
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12600,7 +13072,7 @@ function _createMdxContent(props) {
                                     children: "="
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 690,
+                                    lineNumber: 693,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12611,7 +13083,7 @@ function _createMdxContent(props) {
                                     children: "\"https://cdn.boxicons.com/{{VERSION}}/svg/filled/bx-8-ball.svg\""
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 693,
+                                    lineNumber: 696,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12622,7 +13094,7 @@ function _createMdxContent(props) {
                                     children: " alt"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 696,
+                                    lineNumber: 699,
                                     columnNumber: 94
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12633,7 +13105,7 @@ function _createMdxContent(props) {
                                     children: "="
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 699,
+                                    lineNumber: 702,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12644,7 +13116,7 @@ function _createMdxContent(props) {
                                     children: "\"8-ball\""
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 702,
+                                    lineNumber: 705,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12655,13 +13127,13 @@ function _createMdxContent(props) {
                                     children: "/>"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 705,
+                                    lineNumber: 708,
                                     columnNumber: 39
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 681,
+                            lineNumber: 684,
                             columnNumber: 56
                         }, this),
                         "\n",
@@ -12675,7 +13147,7 @@ function _createMdxContent(props) {
                                     children: "<"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 708,
+                                    lineNumber: 711,
                                     columnNumber: 74
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12686,7 +13158,7 @@ function _createMdxContent(props) {
                                     children: "img"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 711,
+                                    lineNumber: 714,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12697,7 +13169,7 @@ function _createMdxContent(props) {
                                     children: " src"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 714,
+                                    lineNumber: 717,
                                     columnNumber: 32
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12708,7 +13180,7 @@ function _createMdxContent(props) {
                                     children: "="
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 717,
+                                    lineNumber: 720,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12719,7 +13191,7 @@ function _createMdxContent(props) {
                                     children: "\"https://cdn.boxicons.com/{{VERSION}}/svg/brands/bx-facebook.svg\""
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 720,
+                                    lineNumber: 723,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12730,7 +13202,7 @@ function _createMdxContent(props) {
                                     children: " alt"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 723,
+                                    lineNumber: 726,
                                     columnNumber: 96
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12741,7 +13213,7 @@ function _createMdxContent(props) {
                                     children: "="
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 726,
+                                    lineNumber: 729,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12752,7 +13224,7 @@ function _createMdxContent(props) {
                                     children: "\"facebook\""
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 729,
+                                    lineNumber: 732,
                                     columnNumber: 30
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.span, {
@@ -12763,24 +13235,24 @@ function _createMdxContent(props) {
                                     children: "/>"
                                 }, void 0, false, {
                                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                                    lineNumber: 732,
+                                    lineNumber: 735,
                                     columnNumber: 41
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/content/font/usage.mdx.tsx",
-                            lineNumber: 708,
+                            lineNumber: 711,
                             columnNumber: 56
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/content/font/usage.mdx.tsx",
-                    lineNumber: 635,
+                    lineNumber: 638,
                     columnNumber: 288
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/content/font/usage.mdx.tsx",
-                lineNumber: 635,
+                lineNumber: 638,
                 columnNumber: 179
             }, this)
         ]

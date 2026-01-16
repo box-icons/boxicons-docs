@@ -22,8 +22,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     <html lang="en" dir="ltr" suppressHydrationWarning>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="stylesheet" href={'https://cdn.boxicons.com/'+packageJson.icon_version+'/fonts/animations.min.css'} />
-        <link rel="stylesheet" href={'https://cdn.boxicons.com/'+packageJson.icon_version+'/fonts/transformations.min.css'} />
+        <link rel="stylesheet" href={'https://cdn.boxicons.com/animations.min.css'} />
+        <link rel="stylesheet" href={'https://cdn.boxicons.com/transformations.min.css'} />
         
           <link rel="stylesheet" href="/fonts/boxicons-docs.min.css" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
