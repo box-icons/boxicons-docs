@@ -1,2 +1,12 @@
-[00:00:00.744] Server  LOG     ✓ Ready in 554ms
-[00:00:22.241] Server  LOG     ○ Compiling /[[...mdxPath]] ...
+[00:00:00.686] Server  LOG     ✓ Ready in 513ms
+[00:01:27.821] Server  LOG     ✓ Compiled in 3.2s
+[00:12:20.582] Server  LOG     ✓ Compiled in 89ms
+[00:12:20.721] Server  ERROR   ⨯ Error: Expected component `Image` to be defined: you likely forgot to import, pass, or provide it.
+It’s referenced in your code at `27:1-27:116` in `/Users/aniketsuvarna/Desktop/boxicons/boxicons-docs/src/content/figma/styling.mdx`
+[00:12:20.893] Browser ERROR   uncaughtError: Error: Expected component `Image` to be defined: you likely forgot to import, pass, or provide it.
+It’s referenced in your code at `27:1-27:116` in `/Users/aniketsuvarna/Desktop/boxicons/boxicons-docs/src/content/figma/styling.mdx`
+[00:12:34.321] Server  LOG     ✓ Compiled in 45ms
+[00:12:35.373] Browser WARN    Image with src "/transform.gif" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:16:25.137] Server  LOG     ✓ Compiled in 71ms
+[00:16:45.213] Server  LOG     ✓ Compiled in 88ms

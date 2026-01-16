@@ -1,0 +1,51 @@
+import Image from 'next/image';
+
+# Style the Icons inside Figma Plugin
+You can easily customize the style of Boxicons directly within the Figma plugin. 
+The plugin allows you to switch between different styles and weights to match your design needs.
+Now you can add Colors, Remove Padding, Flip, Rotate and scale icons directly from the plugin interface.
+
+<br/>
+---
+
+### Change Colors
+<div className="flex gap-5 space-between flex-col md:flex-row">
+<div className="basis-1/2 py-5" >
+Add colors to your icons directly within the Figma plugin.
+1. Select an icon from the search results.
+2. Use the color picker to choose a fill color.
+3. Click the icon to insert it into your canvas with the selected color.
+<br/>
+---
+For Duotone icons, you can set both primary and secondary colors.
+1. Select a Duotone icon.
+2. If you choose one color, it will apply to both layers.
+3. To set different colors, add a secondary color using the plus icon.
+4. Click the icon to insert it into your canvas with the selected color.
+
+</div>
+<div className="basis-1/2 py-5  rounded-2xl overflow-hidden" >
+<Image className="rounded-2xl figma-side" src="/transform.gif" alt="Figma Plugin API" width={1024} height={1180} />
+</div>
+</div>
+ _You can also save the colors as presets for quick access later._
+<br/>
+---
+
+ ### Remove Padding
+ Boxicons come with built-in padding to ensure consistent sizing and alignment. However, you can remove this padding directly in the Figma plugin if needed.
+ Click on the "No Padding" option before inserting the icon. This will insert the icon without any extra space around it, allowing for tighter layouts.
+<br/>
+---
+
+### Flip and Rotate
+You can flip icons horizontally or vertically, as well as rotate them to any angle.
+Click on the flip or add a value to rotate in the plugin interface before inserting the icon. This allows you to adjust the orientation of the icon to fit your design.
+<br/>
+---
+
+### Scale Icons
+Input a custom size value betoween 16px and 512px to scale the icon directly from the plugin.
+This helps you quickly get the right size without needing to resize it manually after insertion.
+
+_You can reset the changes by clicking on the Reset icon on the right of the bottom toolbar._

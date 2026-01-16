@@ -1,6 +1,6 @@
 var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/[[...mdxPath]]/page.js")
 R.c("server/chunks/ssr/src_content_font_dcd3ab42._.js")
-R.c("server/chunks/ssr/src_content_8107bcfe._.js")
+R.c("server/chunks/ssr/src_content_5cd7798a._.js")
 R.c("server/chunks/ssr/src_831f0637._.js")
 R.c("server/chunks/ssr/[externals]_next_dist_shared_lib_no-fallback-error_external_59b92b38.js")
 R.c("server/chunks/ssr/node_modules_2175abc2._.js")

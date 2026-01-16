@@ -7,5 +7,8 @@ export default {
   },
   pro:{
     title: 'Unlock Pro Features',
+  },
+  styling:{
+    title: 'Style the Icons',
   }
 }

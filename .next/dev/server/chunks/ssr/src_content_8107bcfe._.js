@@ -147,11 +147,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$nextra$2f$di
 const metadata = {
     "title": "Figma Plugin",
     "filePath": "src/content/figma/install.mdx",
-    "timestamp": 1768555361972
+    "timestamp": 1768590717193
 };
 ;
 ;
-const sourceCode = "import Image from 'next/image';\nimport { Bleed } from 'nextra/components';\n\n# Figma Plugin\n\nThe Boxicons Figma plugin lets you search, preview, and insert Boxicons directly into your Figma designs. It’s the fastest way to use Boxicons while designing, without leaving Figma.\n\nYou can browse the full icon library, switch between styles and weights, and insert icons as editable SVGs with a single click.\n<br/>\n---\n\n## Install the Plugin\n\nYou can install the Boxicons plugin directly from the Figma Community:\n\n👉 **Open the Boxicons Figma Plugin page**  \nhttps://www.figma.com/community/plugin/1591165962558819240\n\nClick **Run** and the plugin will be added to your Figma account.\n\n## Open the Plugin\n\n1. Open any Figma file.\n2. Right-click on the canvas.\n3. Select **Plugins → Boxicons**.\n\nThe Boxicons panel will open inside Figma.\n\n<Bleed className=\"rounded-4xl overflow-hidden border border-black/10 dark:border-white/10\" full>\n <Image src=\"/install.gif\" alt=\"Figma Plugin Install\" width={1920} height={880} />\n</Bleed>\n\n## Using the Plugin\n<div className=\"flex gap-5 space-between flex-col md:flex-row\">\n<div className=\"basis-1/2 py-5\" >\n\n1. Use the search bar to find any icon by name or keyword.\n2. Filter by pack, style, or weight if needed.\n3. Click an icon to insert it into your canvas.\n\nIcons are inserted as **editable SVGs**, so you can:\n- Change colors\n- Resize freely\n- Edit paths\n- Apply effects and styles\n\n</div>\n<div className=\"basis-1/2 py-5   rounded-2xl overflow-hidden \" >\n<Image className=\"rounded-2xl  figma-side\" src=\"/filter.gif\" alt=\"Figma Plugin Filter\" width={996} height={1080} />\n</div>\n</div>\n\n\n\n\n\n## Need Help?\n\nIf you run into any issues or have feedback, contact us at:\n\n**contact@boxicons.com**\n\nWe aim to reply within 24 hours.";
+const sourceCode = "import Image from 'next/image';\nimport { Bleed } from 'nextra/components';\n\n# Figma Plugin\n\nThe Boxicons Figma plugin lets you search, preview, and insert Boxicons directly into your Figma designs. It’s the fastest way to use Boxicons while designing, without leaving Figma.\n\nYou can browse the full icon library, switch between styles and weights, and insert icons as editable SVGs with a single click.\n<br/>\n---\n\n## Install the Plugin\n\nYou can install the Boxicons plugin directly from the Figma Community:\n\n👉 **Open the Boxicons Figma Plugin page**  \nhttps://www.figma.com/community/plugin/1591165962558819240\n\nClick **Run** and the plugin will be added to your Figma account.\n\n## Open the Plugin\n\n1. Open any Figma file.\n2. Right-click on the canvas.\n3. Select **Plugins → Boxicons**.\n\nThe Boxicons panel will open inside Figma.\n\n<Bleed className=\"rounded-4xl overflow-hidden border border-black/10 dark:border-white/10\" full>\n <Image src=\"/install.gif\" alt=\"Figma Plugin Install\" width={3816} height={1706} />\n</Bleed>\n\n## Using the Plugin\n<div className=\"flex gap-5 space-between flex-col md:flex-row\">\n<div className=\"basis-1/2 py-5\" >\n\n1. Use the search bar to find any icon by name or keyword.\n2. Filter by pack, style, or weight if needed.\n3. Click an icon to insert it into your canvas.\n\nIcons are inserted as **editable SVGs**, so you can:\n- Change colors\n- Resize freely\n- Edit paths\n- Apply effects and styles\n\n</div>\n<div className=\"basis-1/2 py-5   rounded-2xl overflow-hidden \" >\n<Image className=\"rounded-2xl  figma-side\" src=\"/filter.gif\" alt=\"Figma Plugin Filter\" width={1024} height={1180} />\n</div>\n</div>\n\n\n\n\n\n## Need Help?\n\nIf you run into any issues or have feedback, contact us at:\n\n**contact@boxicons.com**\n\nWe aim to reply within 24 hours.";
 function useTOC(props) {
     return [
         {
@@ -363,8 +363,8 @@ function _createMdxContent(props) {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                     src: "/install.gif",
                     alt: "Figma Plugin Install",
-                    width: 1920,
-                    height: 880
+                    width: 3816,
+                    height: 1706
                 }, void 0, false, {
                     fileName: "[project]/src/content/figma/install.mdx.tsx",
                     lineNumber: 47,
@@ -382,7 +382,7 @@ function _createMdxContent(props) {
             }, void 0, false, {
                 fileName: "[project]/src/content/figma/install.mdx.tsx",
                 lineNumber: 47,
-                columnNumber: 1768
+                columnNumber: 1769
             }, this),
             "\n",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -399,7 +399,7 @@ function _createMdxContent(props) {
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/figma/install.mdx.tsx",
                                         lineNumber: 47,
-                                        columnNumber: 1953
+                                        columnNumber: 1954
                                     }, this),
                                     "\n",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.li, {
@@ -407,7 +407,7 @@ function _createMdxContent(props) {
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/figma/install.mdx.tsx",
                                         lineNumber: 47,
-                                        columnNumber: 2051
+                                        columnNumber: 2052
                                     }, this),
                                     "\n",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.li, {
@@ -415,14 +415,14 @@ function _createMdxContent(props) {
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/figma/install.mdx.tsx",
                                         lineNumber: 47,
-                                        columnNumber: 2137
+                                        columnNumber: 2138
                                     }, this),
                                     "\n"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/figma/install.mdx.tsx",
                                 lineNumber: 47,
-                                columnNumber: 1931
+                                columnNumber: 1932
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.p, {
                                 children: [
@@ -432,14 +432,14 @@ function _createMdxContent(props) {
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/figma/install.mdx.tsx",
                                         lineNumber: 47,
-                                        columnNumber: 2282
+                                        columnNumber: 2283
                                     }, this),
                                     ", so you can:"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/figma/install.mdx.tsx",
                                 lineNumber: 47,
-                                columnNumber: 2241
+                                columnNumber: 2242
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.ul, {
                                 children: [
@@ -449,7 +449,7 @@ function _createMdxContent(props) {
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/figma/install.mdx.tsx",
                                         lineNumber: 47,
-                                        columnNumber: 2395
+                                        columnNumber: 2396
                                     }, this),
                                     "\n",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.li, {
@@ -457,7 +457,7 @@ function _createMdxContent(props) {
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/figma/install.mdx.tsx",
                                         lineNumber: 47,
-                                        columnNumber: 2451
+                                        columnNumber: 2452
                                     }, this),
                                     "\n",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.li, {
@@ -465,7 +465,7 @@ function _createMdxContent(props) {
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/figma/install.mdx.tsx",
                                         lineNumber: 47,
-                                        columnNumber: 2507
+                                        columnNumber: 2508
                                     }, this),
                                     "\n",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.li, {
@@ -473,20 +473,20 @@ function _createMdxContent(props) {
                                     }, void 0, false, {
                                         fileName: "[project]/src/content/figma/install.mdx.tsx",
                                         lineNumber: 47,
-                                        columnNumber: 2560
+                                        columnNumber: 2561
                                     }, this),
                                     "\n"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/content/figma/install.mdx.tsx",
                                 lineNumber: 47,
-                                columnNumber: 2373
+                                columnNumber: 2374
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/content/figma/install.mdx.tsx",
                         lineNumber: 47,
-                        columnNumber: 1899
+                        columnNumber: 1900
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "basis-1/2 py-5   rounded-2xl overflow-hidden ",
@@ -494,23 +494,23 @@ function _createMdxContent(props) {
                             className: "rounded-2xl  figma-side",
                             src: "/filter.gif",
                             alt: "Figma Plugin Filter",
-                            width: 996,
-                            height: 1080
+                            width: 1024,
+                            height: 1180
                         }, void 0, false, {
                             fileName: "[project]/src/content/figma/install.mdx.tsx",
                             lineNumber: 47,
-                            columnNumber: 2713
+                            columnNumber: 2714
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/content/figma/install.mdx.tsx",
                         lineNumber: 47,
-                        columnNumber: 2650
+                        columnNumber: 2651
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/content/figma/install.mdx.tsx",
                 lineNumber: 47,
-                columnNumber: 1836
+                columnNumber: 1837
             }, this),
             "\n",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.h2, {
@@ -519,7 +519,7 @@ function _createMdxContent(props) {
             }, void 0, false, {
                 fileName: "[project]/src/content/figma/install.mdx.tsx",
                 lineNumber: 47,
-                columnNumber: 2846
+                columnNumber: 2848
             }, this),
             "\n",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.p, {
@@ -527,7 +527,7 @@ function _createMdxContent(props) {
             }, void 0, false, {
                 fileName: "[project]/src/content/figma/install.mdx.tsx",
                 lineNumber: 47,
-                columnNumber: 2914
+                columnNumber: 2916
             }, this),
             "\n",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.p, {
@@ -538,17 +538,17 @@ function _createMdxContent(props) {
                     }, void 0, false, {
                         fileName: "[project]/src/content/figma/install.mdx.tsx",
                         lineNumber: 47,
-                        columnNumber: 3049
+                        columnNumber: 3051
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/content/figma/install.mdx.tsx",
                     lineNumber: 47,
-                    columnNumber: 3029
+                    columnNumber: 3031
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/content/figma/install.mdx.tsx",
                 lineNumber: 47,
-                columnNumber: 3014
+                columnNumber: 3016
             }, this),
             "\n",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.p, {
@@ -556,7 +556,7 @@ function _createMdxContent(props) {
             }, void 0, false, {
                 fileName: "[project]/src/content/figma/install.mdx.tsx",
                 lineNumber: 47,
-                columnNumber: 3182
+                columnNumber: 3184
             }, this)
         ]
     }, void 0, true);
@@ -584,10 +584,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 const metadata = {
     "title": "Unlocking Pro Features in the Figma",
     "filePath": "src/content/figma/pro.mdx",
-    "timestamp": 1768555361972
+    "timestamp": 1768590717193
 };
 ;
-const sourceCode = "import Image from 'next/image';\n\n# Unlocking Pro Features in the Figma\n\nIf you are a Boxicons Pro user, you can unlock the full icon library inside the Figma plugin.\n\nTo get started, click the **Pro User** button in the top-right corner of the plugin. This will open a modal asking for your API token.\n<br/>\n---\n\n## Get Your API Token\n\nYou can find your API token in your Boxicons account dashboard:\n\n👉 https://boxicons.com/account/settings\n\nYour API token will always start with: `bx_`\n\n\n## Activate Pro Access\n<div className=\"flex gap-5 space-between flex-col md:flex-row\">\n<div className=\"basis-1/2 py-5\" >\n\n1. Click the **Pro User** button in the plugin.\n2. Paste your API token into the input field.\n3. Click **Verify**.\n\nOnce the token is validated, the plugin will unlock **all Pro icons**, giving you access to:\n\n- 50,000+ icon variations\n- All packs, styles, and weights\n- All duotone variantsyles\n\n</div>\n<div className=\"basis-1/2 py-5  rounded-2xl overflow-hidden\" >\n<Image className=\"rounded-2xl figma-side\" src=\"/api.gif\" alt=\"Figma Plugin API\" width={996} height={1080} />\n</div>\n</div>\n\n## Notes\n\n- Your token is validated securely.\n- You only need to enter it once per device/session.\n- If your token expires or is revoked, you can re-enter a new one at any time if you have an active Pro subscription.";
+const sourceCode = "import Image from 'next/image';\n\n# Unlocking Pro Features in the Figma\n\nIf you are a Boxicons Pro user, you can unlock the full icon library inside the Figma plugin.\n\nTo get started, click the **Pro User** button in the top-right corner of the plugin. This will open a modal asking for your API token.\n<br/>\n---\n\n## Get Your API Token\n\nYou can find your API token in your Boxicons account dashboard:\n\n👉 https://boxicons.com/account/settings\n\nYour API token will always start with: `bx_`\n\n\n## Activate Pro Access\n<div className=\"flex gap-5 space-between flex-col md:flex-row\">\n<div className=\"basis-1/2 py-5\" >\n\n1. Click the **Pro User** button in the plugin.\n2. Paste your API token into the input field.\n3. Click **Verify**.\n\nOnce the token is validated, the plugin will unlock **all Pro icons**, giving you access to:\n\n- 50,000+ icon variations\n- All packs, styles, and weights\n- All duotone variantsyles\n\n</div>\n<div className=\"basis-1/2 py-5  rounded-2xl overflow-hidden\" >\n<Image className=\"rounded-2xl figma-side\" src=\"/api.gif\" alt=\"Figma Plugin API\" width={1024} height={1180} />\n</div>\n</div>\n\n## Notes\n\n- Your token is validated securely.\n- You only need to enter it once per device/session.\n- If your token expires or is revoked, you can re-enter a new one at any time if you have an active Pro subscription.";
 function useTOC(props) {
     return [
         {
@@ -853,8 +853,8 @@ function _createMdxContent(props) {
                             className: "rounded-2xl figma-side",
                             src: "/api.gif",
                             alt: "Figma Plugin API",
-                            width: 996,
-                            height: 1080
+                            width: 1024,
+                            height: 1180
                         }, void 0, false, {
                             fileName: "[project]/src/content/figma/pro.mdx.tsx",
                             lineNumber: 42,
@@ -878,7 +878,7 @@ function _createMdxContent(props) {
             }, void 0, false, {
                 fileName: "[project]/src/content/figma/pro.mdx.tsx",
                 lineNumber: 42,
-                columnNumber: 2071
+                columnNumber: 2072
             }, this),
             "\n",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.ul, {
@@ -889,7 +889,7 @@ function _createMdxContent(props) {
                     }, void 0, false, {
                         fileName: "[project]/src/content/figma/pro.mdx.tsx",
                         lineNumber: 42,
-                        columnNumber: 2161
+                        columnNumber: 2162
                     }, this),
                     "\n",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.li, {
@@ -897,7 +897,7 @@ function _createMdxContent(props) {
                     }, void 0, false, {
                         fileName: "[project]/src/content/figma/pro.mdx.tsx",
                         lineNumber: 42,
-                        columnNumber: 2237
+                        columnNumber: 2238
                     }, this),
                     "\n",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(_components.li, {
@@ -905,14 +905,14 @@ function _createMdxContent(props) {
                     }, void 0, false, {
                         fileName: "[project]/src/content/figma/pro.mdx.tsx",
                         lineNumber: 42,
-                        columnNumber: 2330
+                        columnNumber: 2331
                     }, this),
                     "\n"
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/content/figma/pro.mdx.tsx",
                 lineNumber: 42,
-                columnNumber: 2139
+                columnNumber: 2140
             }, this)
         ]
     }, void 0, true);
